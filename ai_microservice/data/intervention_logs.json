@@ -1,0 +1,702 @@
+[
+  {
+    "log_id": "il_0",
+    "nudge_type": "respite_care_suggestion",
+    "pre_intervention_stress": 0.9043,
+    "post_intervention_stress": 0.6008,
+    "stress_reduction": 0.3036
+  },
+  {
+    "log_id": "il_1",
+    "nudge_type": "call_support_hotline",
+    "pre_intervention_stress": 0.6591,
+    "post_intervention_stress": 0.5712,
+    "stress_reduction": 0.0879
+  },
+  {
+    "log_id": "il_2",
+    "nudge_type": "take_a_breath",
+    "pre_intervention_stress": 0.761,
+    "post_intervention_stress": 0.6528,
+    "stress_reduction": 0.1082
+  },
+  {
+    "log_id": "il_3",
+    "nudge_type": "respite_care_suggestion",
+    "pre_intervention_stress": 0.9398,
+    "post_intervention_stress": 0.6232,
+    "stress_reduction": 0.3165
+  },
+  {
+    "log_id": "il_4",
+    "nudge_type": "drink_water",
+    "pre_intervention_stress": 0.7962,
+    "post_intervention_stress": 0.7488,
+    "stress_reduction": 0.0474
+  },
+  {
+    "log_id": "il_5",
+    "nudge_type": "drink_water",
+    "pre_intervention_stress": 0.8582,
+    "post_intervention_stress": 0.7751,
+    "stress_reduction": 0.0831
+  },
+  {
+    "log_id": "il_6",
+    "nudge_type": "take_a_breath",
+    "pre_intervention_stress": 0.808,
+    "post_intervention_stress": 0.7097,
+    "stress_reduction": 0.0983
+  },
+  {
+    "log_id": "il_7",
+    "nudge_type": "call_support_hotline",
+    "pre_intervention_stress": 0.9366,
+    "post_intervention_stress": 0.8539,
+    "stress_reduction": 0.0826
+  },
+  {
+    "log_id": "il_8",
+    "nudge_type": "respite_care_suggestion",
+    "pre_intervention_stress": 0.8806,
+    "post_intervention_stress": 0.6521,
+    "stress_reduction": 0.2285
+  },
+  {
+    "log_id": "il_9",
+    "nudge_type": "respite_care_suggestion",
+    "pre_intervention_stress": 0.5106,
+    "post_intervention_stress": 0.4172,
+    "stress_reduction": 0.0934
+  },
+  {
+    "log_id": "il_10",
+    "nudge_type": "take_a_breath",
+    "pre_intervention_stress": 0.52,
+    "post_intervention_stress": 0.3706,
+    "stress_reduction": 0.1494
+  },
+  {
+    "log_id": "il_11",
+    "nudge_type": "respite_care_suggestion",
+    "pre_intervention_stress": 0.6457,
+    "post_intervention_stress": 0.5967,
+    "stress_reduction": 0.0489
+  },
+  {
+    "log_id": "il_12",
+    "nudge_type": "respite_care_suggestion",
+    "pre_intervention_stress": 0.702,
+    "post_intervention_stress": 0.666,
+    "stress_reduction": 0.036
+  },
+  {
+    "log_id": "il_13",
+    "nudge_type": "call_support_hotline",
+    "pre_intervention_stress": 0.7373,
+    "post_intervention_stress": 0.7369,
+    "stress_reduction": 0.0005
+  },
+  {
+    "log_id": "il_14",
+    "nudge_type": "take_a_breath",
+    "pre_intervention_stress": 0.5071,
+    "post_intervention_stress": 0.4211,
+    "stress_reduction": 0.0859
+  },
+  {
+    "log_id": "il_15",
+    "nudge_type": "call_support_hotline",
+    "pre_intervention_stress": 0.7321,
+    "post_intervention_stress": 0.6663,
+    "stress_reduction": 0.0658
+  },
+  {
+    "log_id": "il_16",
+    "nudge_type": "take_a_breath",
+    "pre_intervention_stress": 0.6644,
+    "post_intervention_stress": 0.5907,
+    "stress_reduction": 0.0737
+  },
+  {
+    "log_id": "il_17",
+    "nudge_type": "respite_care_suggestion",
+    "pre_intervention_stress": 0.5555,
+    "post_intervention_stress": 0.4778,
+    "stress_reduction": 0.0777
+  },
+  {
+    "log_id": "il_18",
+    "nudge_type": "drink_water",
+    "pre_intervention_stress": 0.8664,
+    "post_intervention_stress": 0.8321,
+    "stress_reduction": 0.0343
+  },
+  {
+    "log_id": "il_19",
+    "nudge_type": "take_a_breath",
+    "pre_intervention_stress": 0.8795,
+    "post_intervention_stress": 0.7533,
+    "stress_reduction": 0.1262
+  },
+  {
+    "log_id": "il_20",
+    "nudge_type": "take_a_breath",
+    "pre_intervention_stress": 0.9715,
+    "post_intervention_stress": 0.8442,
+    "stress_reduction": 0.1272
+  },
+  {
+    "log_id": "il_21",
+    "nudge_type": "call_support_hotline",
+    "pre_intervention_stress": 0.9839,
+    "post_intervention_stress": 0.9657,
+    "stress_reduction": 0.0182
+  },
+  {
+    "log_id": "il_22",
+    "nudge_type": "drink_water",
+    "pre_intervention_stress": 0.6926,
+    "post_intervention_stress": 0.6172,
+    "stress_reduction": 0.0754
+  },
+  {
+    "log_id": "il_23",
+    "nudge_type": "call_support_hotline",
+    "pre_intervention_stress": 0.8616,
+    "post_intervention_stress": 0.8347,
+    "stress_reduction": 0.0269
+  },
+  {
+    "log_id": "il_24",
+    "nudge_type": "call_support_hotline",
+    "pre_intervention_stress": 0.6786,
+    "post_intervention_stress": 0.6777,
+    "stress_reduction": 0.0009
+  },
+  {
+    "log_id": "il_25",
+    "nudge_type": "respite_care_suggestion",
+    "pre_intervention_stress": 0.8166,
+    "post_intervention_stress": 0.4471,
+    "stress_reduction": 0.3695
+  },
+  {
+    "log_id": "il_26",
+    "nudge_type": "take_a_breath",
+    "pre_intervention_stress": 0.7243,
+    "post_intervention_stress": 0.6146,
+    "stress_reduction": 0.1097
+  },
+  {
+    "log_id": "il_27",
+    "nudge_type": "take_a_breath",
+    "pre_intervention_stress": 0.9204,
+    "post_intervention_stress": 0.8636,
+    "stress_reduction": 0.0567
+  },
+  {
+    "log_id": "il_28",
+    "nudge_type": "respite_care_suggestion",
+    "pre_intervention_stress": 0.6268,
+    "post_intervention_stress": 0.5708,
+    "stress_reduction": 0.056
+  },
+  {
+    "log_id": "il_29",
+    "nudge_type": "respite_care_suggestion",
+    "pre_intervention_stress": 0.9814,
+    "post_intervention_stress": 0.6379,
+    "stress_reduction": 0.3435
+  },
+  {
+    "log_id": "il_30",
+    "nudge_type": "call_support_hotline",
+    "pre_intervention_stress": 0.6275,
+    "post_intervention_stress": 0.547,
+    "stress_reduction": 0.0805
+  },
+  {
+    "log_id": "il_31",
+    "nudge_type": "take_a_breath",
+    "pre_intervention_stress": 0.9534,
+    "post_intervention_stress": 0.8225,
+    "stress_reduction": 0.1308
+  },
+  {
+    "log_id": "il_32",
+    "nudge_type": "take_a_breath",
+    "pre_intervention_stress": 0.6855,
+    "post_intervention_stress": 0.6178,
+    "stress_reduction": 0.0677
+  },
+  {
+    "log_id": "il_33",
+    "nudge_type": "call_support_hotline",
+    "pre_intervention_stress": 0.6643,
+    "post_intervention_stress": 0.6423,
+    "stress_reduction": 0.022
+  },
+  {
+    "log_id": "il_34",
+    "nudge_type": "drink_water",
+    "pre_intervention_stress": 0.5635,
+    "post_intervention_stress": 0.5233,
+    "stress_reduction": 0.0402
+  },
+  {
+    "log_id": "il_35",
+    "nudge_type": "drink_water",
+    "pre_intervention_stress": 0.59,
+    "post_intervention_stress": 0.5087,
+    "stress_reduction": 0.0812
+  },
+  {
+    "log_id": "il_36",
+    "nudge_type": "take_a_breath",
+    "pre_intervention_stress": 0.9693,
+    "post_intervention_stress": 0.8654,
+    "stress_reduction": 0.104
+  },
+  {
+    "log_id": "il_37",
+    "nudge_type": "call_support_hotline",
+    "pre_intervention_stress": 0.5563,
+    "post_intervention_stress": 0.5296,
+    "stress_reduction": 0.0266
+  },
+  {
+    "log_id": "il_38",
+    "nudge_type": "respite_care_suggestion",
+    "pre_intervention_stress": 0.5142,
+    "post_intervention_stress": 0.4842,
+    "stress_reduction": 0.03
+  },
+  {
+    "log_id": "il_39",
+    "nudge_type": "take_a_breath",
+    "pre_intervention_stress": 0.8335,
+    "post_intervention_stress": 0.7006,
+    "stress_reduction": 0.1328
+  },
+  {
+    "log_id": "il_40",
+    "nudge_type": "take_a_breath",
+    "pre_intervention_stress": 0.5778,
+    "post_intervention_stress": 0.4982,
+    "stress_reduction": 0.0796
+  },
+  {
+    "log_id": "il_41",
+    "nudge_type": "call_support_hotline",
+    "pre_intervention_stress": 0.9973,
+    "post_intervention_stress": 0.9071,
+    "stress_reduction": 0.0902
+  },
+  {
+    "log_id": "il_42",
+    "nudge_type": "respite_care_suggestion",
+    "pre_intervention_stress": 0.8102,
+    "post_intervention_stress": 0.4917,
+    "stress_reduction": 0.3185
+  },
+  {
+    "log_id": "il_43",
+    "nudge_type": "take_a_breath",
+    "pre_intervention_stress": 0.8242,
+    "post_intervention_stress": 0.7371,
+    "stress_reduction": 0.0871
+  },
+  {
+    "log_id": "il_44",
+    "nudge_type": "take_a_breath",
+    "pre_intervention_stress": 0.8482,
+    "post_intervention_stress": 0.7198,
+    "stress_reduction": 0.1284
+  },
+  {
+    "log_id": "il_45",
+    "nudge_type": "call_support_hotline",
+    "pre_intervention_stress": 0.899,
+    "post_intervention_stress": 0.8311,
+    "stress_reduction": 0.0679
+  },
+  {
+    "log_id": "il_46",
+    "nudge_type": "call_support_hotline",
+    "pre_intervention_stress": 0.5203,
+    "post_intervention_stress": 0.4847,
+    "stress_reduction": 0.0356
+  },
+  {
+    "log_id": "il_47",
+    "nudge_type": "call_support_hotline",
+    "pre_intervention_stress": 0.9292,
+    "post_intervention_stress": 0.9247,
+    "stress_reduction": 0.0044
+  },
+  {
+    "log_id": "il_48",
+    "nudge_type": "drink_water",
+    "pre_intervention_stress": 0.5505,
+    "post_intervention_stress": 0.5248,
+    "stress_reduction": 0.0257
+  },
+  {
+    "log_id": "il_49",
+    "nudge_type": "take_a_breath",
+    "pre_intervention_stress": 0.8545,
+    "post_intervention_stress": 0.774,
+    "stress_reduction": 0.0804
+  },
+  {
+    "log_id": "il_50",
+    "nudge_type": "drink_water",
+    "pre_intervention_stress": 0.9421,
+    "post_intervention_stress": 0.8679,
+    "stress_reduction": 0.0741
+  },
+  {
+    "log_id": "il_51",
+    "nudge_type": "call_support_hotline",
+    "pre_intervention_stress": 0.5639,
+    "post_intervention_stress": 0.4682,
+    "stress_reduction": 0.0957
+  },
+  {
+    "log_id": "il_52",
+    "nudge_type": "respite_care_suggestion",
+    "pre_intervention_stress": 0.8751,
+    "post_intervention_stress": 0.532,
+    "stress_reduction": 0.3432
+  },
+  {
+    "log_id": "il_53",
+    "nudge_type": "take_a_breath",
+    "pre_intervention_stress": 0.7638,
+    "post_intervention_stress": 0.6211,
+    "stress_reduction": 0.1427
+  },
+  {
+    "log_id": "il_54",
+    "nudge_type": "call_support_hotline",
+    "pre_intervention_stress": 0.6581,
+    "post_intervention_stress": 0.622,
+    "stress_reduction": 0.0361
+  },
+  {
+    "log_id": "il_55",
+    "nudge_type": "drink_water",
+    "pre_intervention_stress": 0.9645,
+    "post_intervention_stress": 0.8848,
+    "stress_reduction": 0.0797
+  },
+  {
+    "log_id": "il_56",
+    "nudge_type": "take_a_breath",
+    "pre_intervention_stress": 0.5974,
+    "post_intervention_stress": 0.509,
+    "stress_reduction": 0.0885
+  },
+  {
+    "log_id": "il_57",
+    "nudge_type": "drink_water",
+    "pre_intervention_stress": 0.9293,
+    "post_intervention_stress": 0.8485,
+    "stress_reduction": 0.0807
+  },
+  {
+    "log_id": "il_58",
+    "nudge_type": "respite_care_suggestion",
+    "pre_intervention_stress": 0.8166,
+    "post_intervention_stress": 0.4406,
+    "stress_reduction": 0.376
+  },
+  {
+    "log_id": "il_59",
+    "nudge_type": "respite_care_suggestion",
+    "pre_intervention_stress": 0.9125,
+    "post_intervention_stress": 0.6416,
+    "stress_reduction": 0.271
+  },
+  {
+    "log_id": "il_60",
+    "nudge_type": "drink_water",
+    "pre_intervention_stress": 0.6128,
+    "post_intervention_stress": 0.5505,
+    "stress_reduction": 0.0623
+  },
+  {
+    "log_id": "il_61",
+    "nudge_type": "take_a_breath",
+    "pre_intervention_stress": 0.7817,
+    "post_intervention_stress": 0.6776,
+    "stress_reduction": 0.1041
+  },
+  {
+    "log_id": "il_62",
+    "nudge_type": "take_a_breath",
+    "pre_intervention_stress": 0.9678,
+    "post_intervention_stress": 0.9094,
+    "stress_reduction": 0.0584
+  },
+  {
+    "log_id": "il_63",
+    "nudge_type": "call_support_hotline",
+    "pre_intervention_stress": 0.8093,
+    "post_intervention_stress": 0.7697,
+    "stress_reduction": 0.0396
+  },
+  {
+    "log_id": "il_64",
+    "nudge_type": "respite_care_suggestion",
+    "pre_intervention_stress": 0.9163,
+    "post_intervention_stress": 0.5777,
+    "stress_reduction": 0.3386
+  },
+  {
+    "log_id": "il_65",
+    "nudge_type": "drink_water",
+    "pre_intervention_stress": 0.5082,
+    "post_intervention_stress": 0.4742,
+    "stress_reduction": 0.0341
+  },
+  {
+    "log_id": "il_66",
+    "nudge_type": "respite_care_suggestion",
+    "pre_intervention_stress": 0.7482,
+    "post_intervention_stress": 0.6614,
+    "stress_reduction": 0.0869
+  },
+  {
+    "log_id": "il_67",
+    "nudge_type": "call_support_hotline",
+    "pre_intervention_stress": 0.7068,
+    "post_intervention_stress": 0.6642,
+    "stress_reduction": 0.0427
+  },
+  {
+    "log_id": "il_68",
+    "nudge_type": "take_a_breath",
+    "pre_intervention_stress": 0.7244,
+    "post_intervention_stress": 0.6229,
+    "stress_reduction": 0.1015
+  },
+  {
+    "log_id": "il_69",
+    "nudge_type": "respite_care_suggestion",
+    "pre_intervention_stress": 0.9037,
+    "post_intervention_stress": 0.587,
+    "stress_reduction": 0.3167
+  },
+  {
+    "log_id": "il_70",
+    "nudge_type": "respite_care_suggestion",
+    "pre_intervention_stress": 0.9114,
+    "post_intervention_stress": 0.7,
+    "stress_reduction": 0.2114
+  },
+  {
+    "log_id": "il_71",
+    "nudge_type": "take_a_breath",
+    "pre_intervention_stress": 0.9162,
+    "post_intervention_stress": 0.8144,
+    "stress_reduction": 0.1018
+  },
+  {
+    "log_id": "il_72",
+    "nudge_type": "call_support_hotline",
+    "pre_intervention_stress": 0.8183,
+    "post_intervention_stress": 0.7633,
+    "stress_reduction": 0.055
+  },
+  {
+    "log_id": "il_73",
+    "nudge_type": "respite_care_suggestion",
+    "pre_intervention_stress": 0.5153,
+    "post_intervention_stress": 0.5004,
+    "stress_reduction": 0.0149
+  },
+  {
+    "log_id": "il_74",
+    "nudge_type": "drink_water",
+    "pre_intervention_stress": 0.7186,
+    "post_intervention_stress": 0.6855,
+    "stress_reduction": 0.033
+  },
+  {
+    "log_id": "il_75",
+    "nudge_type": "drink_water",
+    "pre_intervention_stress": 0.7732,
+    "post_intervention_stress": 0.689,
+    "stress_reduction": 0.0842
+  },
+  {
+    "log_id": "il_76",
+    "nudge_type": "drink_water",
+    "pre_intervention_stress": 0.6602,
+    "post_intervention_stress": 0.6482,
+    "stress_reduction": 0.0121
+  },
+  {
+    "log_id": "il_77",
+    "nudge_type": "call_support_hotline",
+    "pre_intervention_stress": 0.8388,
+    "post_intervention_stress": 0.7944,
+    "stress_reduction": 0.0444
+  },
+  {
+    "log_id": "il_78",
+    "nudge_type": "take_a_breath",
+    "pre_intervention_stress": 0.8881,
+    "post_intervention_stress": 0.8102,
+    "stress_reduction": 0.0778
+  },
+  {
+    "log_id": "il_79",
+    "nudge_type": "call_support_hotline",
+    "pre_intervention_stress": 0.9408,
+    "post_intervention_stress": 0.8621,
+    "stress_reduction": 0.0787
+  },
+  {
+    "log_id": "il_80",
+    "nudge_type": "drink_water",
+    "pre_intervention_stress": 0.8223,
+    "post_intervention_stress": 0.8136,
+    "stress_reduction": 0.0086
+  },
+  {
+    "log_id": "il_81",
+    "nudge_type": "call_support_hotline",
+    "pre_intervention_stress": 0.5108,
+    "post_intervention_stress": 0.4498,
+    "stress_reduction": 0.0611
+  },
+  {
+    "log_id": "il_82",
+    "nudge_type": "call_support_hotline",
+    "pre_intervention_stress": 0.6847,
+    "post_intervention_stress": 0.6034,
+    "stress_reduction": 0.0813
+  },
+  {
+    "log_id": "il_83",
+    "nudge_type": "drink_water",
+    "pre_intervention_stress": 0.9543,
+    "post_intervention_stress": 0.9105,
+    "stress_reduction": 0.0438
+  },
+  {
+    "log_id": "il_84",
+    "nudge_type": "take_a_breath",
+    "pre_intervention_stress": 0.9979,
+    "post_intervention_stress": 0.8586,
+    "stress_reduction": 0.1394
+  },
+  {
+    "log_id": "il_85",
+    "nudge_type": "take_a_breath",
+    "pre_intervention_stress": 0.9077,
+    "post_intervention_stress": 0.7753,
+    "stress_reduction": 0.1324
+  },
+  {
+    "log_id": "il_86",
+    "nudge_type": "drink_water",
+    "pre_intervention_stress": 0.528,
+    "post_intervention_stress": 0.5048,
+    "stress_reduction": 0.0232
+  },
+  {
+    "log_id": "il_87",
+    "nudge_type": "call_support_hotline",
+    "pre_intervention_stress": 0.6429,
+    "post_intervention_stress": 0.5465,
+    "stress_reduction": 0.0965
+  },
+  {
+    "log_id": "il_88",
+    "nudge_type": "call_support_hotline",
+    "pre_intervention_stress": 0.5677,
+    "post_intervention_stress": 0.5296,
+    "stress_reduction": 0.038
+  },
+  {
+    "log_id": "il_89",
+    "nudge_type": "call_support_hotline",
+    "pre_intervention_stress": 0.8024,
+    "post_intervention_stress": 0.7597,
+    "stress_reduction": 0.0428
+  },
+  {
+    "log_id": "il_90",
+    "nudge_type": "respite_care_suggestion",
+    "pre_intervention_stress": 0.6463,
+    "post_intervention_stress": 0.5573,
+    "stress_reduction": 0.089
+  },
+  {
+    "log_id": "il_91",
+    "nudge_type": "respite_care_suggestion",
+    "pre_intervention_stress": 0.7582,
+    "post_intervention_stress": 0.7231,
+    "stress_reduction": 0.0351
+  },
+  {
+    "log_id": "il_92",
+    "nudge_type": "drink_water",
+    "pre_intervention_stress": 0.6282,
+    "post_intervention_stress": 0.571,
+    "stress_reduction": 0.0572
+  },
+  {
+    "log_id": "il_93",
+    "nudge_type": "drink_water",
+    "pre_intervention_stress": 0.9765,
+    "post_intervention_stress": 0.8978,
+    "stress_reduction": 0.0787
+  },
+  {
+    "log_id": "il_94",
+    "nudge_type": "take_a_breath",
+    "pre_intervention_stress": 0.9834,
+    "post_intervention_stress": 0.8836,
+    "stress_reduction": 0.0998
+  },
+  {
+    "log_id": "il_95",
+    "nudge_type": "respite_care_suggestion",
+    "pre_intervention_stress": 0.9346,
+    "post_intervention_stress": 0.6099,
+    "stress_reduction": 0.3248
+  },
+  {
+    "log_id": "il_96",
+    "nudge_type": "call_support_hotline",
+    "pre_intervention_stress": 0.9087,
+    "post_intervention_stress": 0.8166,
+    "stress_reduction": 0.0921
+  },
+  {
+    "log_id": "il_97",
+    "nudge_type": "drink_water",
+    "pre_intervention_stress": 0.9662,
+    "post_intervention_stress": 0.9404,
+    "stress_reduction": 0.0258
+  },
+  {
+    "log_id": "il_98",
+    "nudge_type": "call_support_hotline",
+    "pre_intervention_stress": 0.7664,
+    "post_intervention_stress": 0.7489,
+    "stress_reduction": 0.0176
+  },
+  {
+    "log_id": "il_99",
+    "nudge_type": "drink_water",
+    "pre_intervention_stress": 0.6036,
+    "post_intervention_stress": 0.5651,
+    "stress_reduction": 0.0385
+  }
+]

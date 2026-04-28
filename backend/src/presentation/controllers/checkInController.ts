@@ -1,0 +1,92 @@
+import { Request, Response } from 'express';
+import { UserModel, CheckInModel } from '../../infrastructure/database/models';
+import { EncryptionService, NudgeEngine } from '../../application/usecases/services';
+
+const AI_MICROSERVICE_URL = process.env.AI_MICROSERVICE_URL || 'http://localhost:5000/predict';
+
+export const submitCheckIn = async (req: Request, res: Response) => {
+    try {
+        const { caregiverId, typingSpeedWpm, backspaceFrequency, voiceTranscript, vocalEnergyState, baselineData, linguisticData } = req.body;
+
+        if (!caregiverId || !typingSpeedWpm) {
+            return res.status(400).json({ error: "Missing required check-in fields." });
+        }
+
+        // 1. Passive Detection Engine: Cognitive Load Score
+        // High backspace frequency and slow typing = High cognitive load
+        const cognitiveLoadScore = Math.min(1.0, (backspaceFrequency * 0.1) + (100 / Math.max(1, typingSpeedWpm)));
+
+        // 2. Fetch Burnout Risk Index from AI Microservice
+        let aiStressIndex = 0.5; // Default fallback
+        try {
+            const aiResponse = await fetch(AI_MICROSERVICE_URL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    baseline: baselineData || [0.5, 0.5, 0.5, 0.5, 0.5],
+                    vocal: [0.5, 0.05, 0.05, 0.5], // Dummy vocal features if not provided
+                    linguistic: linguisticData || [0.5, 0.5, 0.0]
+                })
+            });
+            const aiResult = await aiResponse.json();
+            if (aiResult.status === 'success') {
+                aiStressIndex = aiResult.burnout_risk_index;
+            }
+        } catch (aiError) {
+            console.error("AI Microservice unreachable. Using fallback stress index.");
+        }
+
+        // 3. Privacy-First Encryption
+        const encryptedTranscript = EncryptionService.encrypt(voiceTranscript || "No transcript provided");
+
+        // 4. Save to Database
+        const checkIn = new CheckInModel({
+            caregiverId,
+            typingSpeedWpm,
+            backspaceFrequency,
+            cognitiveLoadScore,
+            voiceTranscriptEncrypted: encryptedTranscript,
+            vocalEnergyState,
+            aiStressIndex
+        });
+        // Await checkIn.save(); // Skipping actual DB save for demo unless Mongo is running
+
+        // 5. Agentic Nudge Engine
+        // Assuming we fetched User to get distanceFromHospital, using mock distance for demo
+        const distanceFromHospitalKm = 15; 
+        const recommendedNudge = NudgeEngine.evaluateNudge(aiStressIndex, distanceFromHospitalKm);
+
+        return res.status(200).json({
+            message: "Check-in processed successfully",
+            data: {
+                cognitiveLoadScore,
+                aiStressIndex,
+                recommendedNudge
+            }
+        });
+    } catch (error) {
+        console.error("Error processing check-in:", error);
+        return res.status(500).json({ error: "An unexpected error occurred while processing the check-in." });
+    }
+};
+
+export const getDemoData = async (req: Request, res: Response) => {
+    try {
+        // Mock Demo Data: Sarah's Journey
+        return res.status(200).json({
+            caregiver: {
+                name: "Sarah",
+                age: 42,
+                economicStruggleIndex: 0.7, // High stress factor
+                distanceFromHospitalKm: 25
+            },
+            history: [
+                { day: "Monday", stressIndex: 0.4, nudge: null },
+                { day: "Wednesday", stressIndex: 0.7, nudge: "triggerTakeABreathNudge" },
+                { day: "Friday", stressIndex: 0.85, nudge: "triggerRespiteCareNudge" }
+            ]
+        });
+    } catch (error) {
+        return res.status(500).json({ error: "Failed to load demo data." });
+    }
+};

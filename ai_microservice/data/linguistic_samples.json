@@ -1,0 +1,802 @@
+[
+  {
+    "sample_id": "ls_0",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_1",
+    "text": "Everything is completely fine. I'm doing great... just... perfectly fine.",
+    "syntax_fragmentation_score": 0.8,
+    "lexical_sentiment_score": 0.9,
+    "is_masked_distress": true,
+    "true_distress_level": 0.9
+  },
+  {
+    "sample_id": "ls_2",
+    "text": "I am feeling so overwhelmed today. It's too much.",
+    "syntax_fragmentation_score": 0.4,
+    "lexical_sentiment_score": 0.2,
+    "is_masked_distress": false,
+    "true_distress_level": 0.8
+  },
+  {
+    "sample_id": "ls_3",
+    "text": "Everything is completely fine. I'm doing great... just... perfectly fine.",
+    "syntax_fragmentation_score": 0.8,
+    "lexical_sentiment_score": 0.9,
+    "is_masked_distress": true,
+    "true_distress_level": 0.9
+  },
+  {
+    "sample_id": "ls_4",
+    "text": "I am feeling so overwhelmed today. It's too much.",
+    "syntax_fragmentation_score": 0.4,
+    "lexical_sentiment_score": 0.2,
+    "is_masked_distress": false,
+    "true_distress_level": 0.8
+  },
+  {
+    "sample_id": "ls_5",
+    "text": "Everything is completely fine. I'm doing great... just... perfectly fine.",
+    "syntax_fragmentation_score": 0.8,
+    "lexical_sentiment_score": 0.9,
+    "is_masked_distress": true,
+    "true_distress_level": 0.9
+  },
+  {
+    "sample_id": "ls_6",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_7",
+    "text": "I am feeling so overwhelmed today. It's too much.",
+    "syntax_fragmentation_score": 0.4,
+    "lexical_sentiment_score": 0.2,
+    "is_masked_distress": false,
+    "true_distress_level": 0.8
+  },
+  {
+    "sample_id": "ls_8",
+    "text": "Everything is completely fine. I'm doing great... just... perfectly fine.",
+    "syntax_fragmentation_score": 0.8,
+    "lexical_sentiment_score": 0.9,
+    "is_masked_distress": true,
+    "true_distress_level": 0.9
+  },
+  {
+    "sample_id": "ls_9",
+    "text": "I am feeling so overwhelmed today. It's too much.",
+    "syntax_fragmentation_score": 0.4,
+    "lexical_sentiment_score": 0.2,
+    "is_masked_distress": false,
+    "true_distress_level": 0.8
+  },
+  {
+    "sample_id": "ls_10",
+    "text": "Everything is completely fine. I'm doing great... just... perfectly fine.",
+    "syntax_fragmentation_score": 0.8,
+    "lexical_sentiment_score": 0.9,
+    "is_masked_distress": true,
+    "true_distress_level": 0.9
+  },
+  {
+    "sample_id": "ls_11",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_12",
+    "text": "Everything is completely fine. I'm doing great... just... perfectly fine.",
+    "syntax_fragmentation_score": 0.8,
+    "lexical_sentiment_score": 0.9,
+    "is_masked_distress": true,
+    "true_distress_level": 0.9
+  },
+  {
+    "sample_id": "ls_13",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_14",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_15",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_16",
+    "text": "I am feeling so overwhelmed today. It's too much.",
+    "syntax_fragmentation_score": 0.4,
+    "lexical_sentiment_score": 0.2,
+    "is_masked_distress": false,
+    "true_distress_level": 0.8
+  },
+  {
+    "sample_id": "ls_17",
+    "text": "I am feeling so overwhelmed today. It's too much.",
+    "syntax_fragmentation_score": 0.4,
+    "lexical_sentiment_score": 0.2,
+    "is_masked_distress": false,
+    "true_distress_level": 0.8
+  },
+  {
+    "sample_id": "ls_18",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_19",
+    "text": "I am feeling so overwhelmed today. It's too much.",
+    "syntax_fragmentation_score": 0.4,
+    "lexical_sentiment_score": 0.2,
+    "is_masked_distress": false,
+    "true_distress_level": 0.8
+  },
+  {
+    "sample_id": "ls_20",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_21",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_22",
+    "text": "I am feeling so overwhelmed today. It's too much.",
+    "syntax_fragmentation_score": 0.4,
+    "lexical_sentiment_score": 0.2,
+    "is_masked_distress": false,
+    "true_distress_level": 0.8
+  },
+  {
+    "sample_id": "ls_23",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_24",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_25",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_26",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_27",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_28",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_29",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_30",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_31",
+    "text": "Everything is completely fine. I'm doing great... just... perfectly fine.",
+    "syntax_fragmentation_score": 0.8,
+    "lexical_sentiment_score": 0.9,
+    "is_masked_distress": true,
+    "true_distress_level": 0.9
+  },
+  {
+    "sample_id": "ls_32",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_33",
+    "text": "I am feeling so overwhelmed today. It's too much.",
+    "syntax_fragmentation_score": 0.4,
+    "lexical_sentiment_score": 0.2,
+    "is_masked_distress": false,
+    "true_distress_level": 0.8
+  },
+  {
+    "sample_id": "ls_34",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_35",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_36",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_37",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_38",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_39",
+    "text": "I am feeling so overwhelmed today. It's too much.",
+    "syntax_fragmentation_score": 0.4,
+    "lexical_sentiment_score": 0.2,
+    "is_masked_distress": false,
+    "true_distress_level": 0.8
+  },
+  {
+    "sample_id": "ls_40",
+    "text": "I am feeling so overwhelmed today. It's too much.",
+    "syntax_fragmentation_score": 0.4,
+    "lexical_sentiment_score": 0.2,
+    "is_masked_distress": false,
+    "true_distress_level": 0.8
+  },
+  {
+    "sample_id": "ls_41",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_42",
+    "text": "Everything is completely fine. I'm doing great... just... perfectly fine.",
+    "syntax_fragmentation_score": 0.8,
+    "lexical_sentiment_score": 0.9,
+    "is_masked_distress": true,
+    "true_distress_level": 0.9
+  },
+  {
+    "sample_id": "ls_43",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_44",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_45",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_46",
+    "text": "Everything is completely fine. I'm doing great... just... perfectly fine.",
+    "syntax_fragmentation_score": 0.8,
+    "lexical_sentiment_score": 0.9,
+    "is_masked_distress": true,
+    "true_distress_level": 0.9
+  },
+  {
+    "sample_id": "ls_47",
+    "text": "I am feeling so overwhelmed today. It's too much.",
+    "syntax_fragmentation_score": 0.4,
+    "lexical_sentiment_score": 0.2,
+    "is_masked_distress": false,
+    "true_distress_level": 0.8
+  },
+  {
+    "sample_id": "ls_48",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_49",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_50",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_51",
+    "text": "I am feeling so overwhelmed today. It's too much.",
+    "syntax_fragmentation_score": 0.4,
+    "lexical_sentiment_score": 0.2,
+    "is_masked_distress": false,
+    "true_distress_level": 0.8
+  },
+  {
+    "sample_id": "ls_52",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_53",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_54",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_55",
+    "text": "I am feeling so overwhelmed today. It's too much.",
+    "syntax_fragmentation_score": 0.4,
+    "lexical_sentiment_score": 0.2,
+    "is_masked_distress": false,
+    "true_distress_level": 0.8
+  },
+  {
+    "sample_id": "ls_56",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_57",
+    "text": "Everything is completely fine. I'm doing great... just... perfectly fine.",
+    "syntax_fragmentation_score": 0.8,
+    "lexical_sentiment_score": 0.9,
+    "is_masked_distress": true,
+    "true_distress_level": 0.9
+  },
+  {
+    "sample_id": "ls_58",
+    "text": "I am feeling so overwhelmed today. It's too much.",
+    "syntax_fragmentation_score": 0.4,
+    "lexical_sentiment_score": 0.2,
+    "is_masked_distress": false,
+    "true_distress_level": 0.8
+  },
+  {
+    "sample_id": "ls_59",
+    "text": "I am feeling so overwhelmed today. It's too much.",
+    "syntax_fragmentation_score": 0.4,
+    "lexical_sentiment_score": 0.2,
+    "is_masked_distress": false,
+    "true_distress_level": 0.8
+  },
+  {
+    "sample_id": "ls_60",
+    "text": "I am feeling so overwhelmed today. It's too much.",
+    "syntax_fragmentation_score": 0.4,
+    "lexical_sentiment_score": 0.2,
+    "is_masked_distress": false,
+    "true_distress_level": 0.8
+  },
+  {
+    "sample_id": "ls_61",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_62",
+    "text": "Everything is completely fine. I'm doing great... just... perfectly fine.",
+    "syntax_fragmentation_score": 0.8,
+    "lexical_sentiment_score": 0.9,
+    "is_masked_distress": true,
+    "true_distress_level": 0.9
+  },
+  {
+    "sample_id": "ls_63",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_64",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_65",
+    "text": "I am feeling so overwhelmed today. It's too much.",
+    "syntax_fragmentation_score": 0.4,
+    "lexical_sentiment_score": 0.2,
+    "is_masked_distress": false,
+    "true_distress_level": 0.8
+  },
+  {
+    "sample_id": "ls_66",
+    "text": "I am feeling so overwhelmed today. It's too much.",
+    "syntax_fragmentation_score": 0.4,
+    "lexical_sentiment_score": 0.2,
+    "is_masked_distress": false,
+    "true_distress_level": 0.8
+  },
+  {
+    "sample_id": "ls_67",
+    "text": "I am feeling so overwhelmed today. It's too much.",
+    "syntax_fragmentation_score": 0.4,
+    "lexical_sentiment_score": 0.2,
+    "is_masked_distress": false,
+    "true_distress_level": 0.8
+  },
+  {
+    "sample_id": "ls_68",
+    "text": "Everything is completely fine. I'm doing great... just... perfectly fine.",
+    "syntax_fragmentation_score": 0.8,
+    "lexical_sentiment_score": 0.9,
+    "is_masked_distress": true,
+    "true_distress_level": 0.9
+  },
+  {
+    "sample_id": "ls_69",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_70",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_71",
+    "text": "Everything is completely fine. I'm doing great... just... perfectly fine.",
+    "syntax_fragmentation_score": 0.8,
+    "lexical_sentiment_score": 0.9,
+    "is_masked_distress": true,
+    "true_distress_level": 0.9
+  },
+  {
+    "sample_id": "ls_72",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_73",
+    "text": "I am feeling so overwhelmed today. It's too much.",
+    "syntax_fragmentation_score": 0.4,
+    "lexical_sentiment_score": 0.2,
+    "is_masked_distress": false,
+    "true_distress_level": 0.8
+  },
+  {
+    "sample_id": "ls_74",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_75",
+    "text": "I am feeling so overwhelmed today. It's too much.",
+    "syntax_fragmentation_score": 0.4,
+    "lexical_sentiment_score": 0.2,
+    "is_masked_distress": false,
+    "true_distress_level": 0.8
+  },
+  {
+    "sample_id": "ls_76",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_77",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_78",
+    "text": "Everything is completely fine. I'm doing great... just... perfectly fine.",
+    "syntax_fragmentation_score": 0.8,
+    "lexical_sentiment_score": 0.9,
+    "is_masked_distress": true,
+    "true_distress_level": 0.9
+  },
+  {
+    "sample_id": "ls_79",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_80",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_81",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_82",
+    "text": "I am feeling so overwhelmed today. It's too much.",
+    "syntax_fragmentation_score": 0.4,
+    "lexical_sentiment_score": 0.2,
+    "is_masked_distress": false,
+    "true_distress_level": 0.8
+  },
+  {
+    "sample_id": "ls_83",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_84",
+    "text": "I am feeling so overwhelmed today. It's too much.",
+    "syntax_fragmentation_score": 0.4,
+    "lexical_sentiment_score": 0.2,
+    "is_masked_distress": false,
+    "true_distress_level": 0.8
+  },
+  {
+    "sample_id": "ls_85",
+    "text": "I am feeling so overwhelmed today. It's too much.",
+    "syntax_fragmentation_score": 0.4,
+    "lexical_sentiment_score": 0.2,
+    "is_masked_distress": false,
+    "true_distress_level": 0.8
+  },
+  {
+    "sample_id": "ls_86",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_87",
+    "text": "Everything is completely fine. I'm doing great... just... perfectly fine.",
+    "syntax_fragmentation_score": 0.8,
+    "lexical_sentiment_score": 0.9,
+    "is_masked_distress": true,
+    "true_distress_level": 0.9
+  },
+  {
+    "sample_id": "ls_88",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_89",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_90",
+    "text": "I am feeling so overwhelmed today. It's too much.",
+    "syntax_fragmentation_score": 0.4,
+    "lexical_sentiment_score": 0.2,
+    "is_masked_distress": false,
+    "true_distress_level": 0.8
+  },
+  {
+    "sample_id": "ls_91",
+    "text": "Everything is completely fine. I'm doing great... just... perfectly fine.",
+    "syntax_fragmentation_score": 0.8,
+    "lexical_sentiment_score": 0.9,
+    "is_masked_distress": true,
+    "true_distress_level": 0.9
+  },
+  {
+    "sample_id": "ls_92",
+    "text": "I am feeling so overwhelmed today. It's too much.",
+    "syntax_fragmentation_score": 0.4,
+    "lexical_sentiment_score": 0.2,
+    "is_masked_distress": false,
+    "true_distress_level": 0.8
+  },
+  {
+    "sample_id": "ls_93",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_94",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_95",
+    "text": "I am feeling so overwhelmed today. It's too much.",
+    "syntax_fragmentation_score": 0.4,
+    "lexical_sentiment_score": 0.2,
+    "is_masked_distress": false,
+    "true_distress_level": 0.8
+  },
+  {
+    "sample_id": "ls_96",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_97",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_98",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  },
+  {
+    "sample_id": "ls_99",
+    "text": "We had a good day today. Feeling rested.",
+    "syntax_fragmentation_score": 0.1,
+    "lexical_sentiment_score": 0.8,
+    "is_masked_distress": false,
+    "true_distress_level": 0.1
+  }
+]

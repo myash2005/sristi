@@ -1,0 +1,902 @@
+[
+  {
+    "caregiver_id": "cg_0",
+    "age": 42,
+    "economic_struggle_index": 0.64,
+    "distance_from_hospital_km": 51.43,
+    "hours_caregiving_per_week": 46,
+    "support_system_strength": 0.40841766339018293,
+    "baseline_stress_weight": 0.7157
+  },
+  {
+    "caregiver_id": "cg_1",
+    "age": 49,
+    "economic_struggle_index": 0.4,
+    "distance_from_hospital_km": 45.84,
+    "hours_caregiving_per_week": 12,
+    "support_system_strength": 0.09774529609731475,
+    "baseline_stress_weight": 0.6658
+  },
+  {
+    "caregiver_id": "cg_2",
+    "age": 61,
+    "economic_struggle_index": 0.72,
+    "distance_from_hospital_km": 78.66,
+    "hours_caregiving_per_week": 76,
+    "support_system_strength": 0.636646931589431,
+    "baseline_stress_weight": 0.8801
+  },
+  {
+    "caregiver_id": "cg_3",
+    "age": 30,
+    "economic_struggle_index": 0.05,
+    "distance_from_hospital_km": 84.08,
+    "hours_caregiving_per_week": 73,
+    "support_system_strength": 0.46347130937274084,
+    "baseline_stress_weight": 0.4988
+  },
+  {
+    "caregiver_id": "cg_4",
+    "age": 34,
+    "economic_struggle_index": 0.24,
+    "distance_from_hospital_km": 69.38,
+    "hours_caregiving_per_week": 69,
+    "support_system_strength": 0.432504834315797,
+    "baseline_stress_weight": 0.5671
+  },
+  {
+    "caregiver_id": "cg_5",
+    "age": 57,
+    "economic_struggle_index": 0.98,
+    "distance_from_hospital_km": 4.46,
+    "hours_caregiving_per_week": 51,
+    "support_system_strength": 0.42625367994571495,
+    "baseline_stress_weight": 0.54
+  },
+  {
+    "caregiver_id": "cg_6",
+    "age": 50,
+    "economic_struggle_index": 0.95,
+    "distance_from_hospital_km": 55.74,
+    "hours_caregiving_per_week": 14,
+    "support_system_strength": 0.17274023867871224,
+    "baseline_stress_weight": 0.8295
+  },
+  {
+    "caregiver_id": "cg_7",
+    "age": 56,
+    "economic_struggle_index": 0.98,
+    "distance_from_hospital_km": 13.2,
+    "hours_caregiving_per_week": 21,
+    "support_system_strength": 0.3495873695309213,
+    "baseline_stress_weight": 0.7563
+  },
+  {
+    "caregiver_id": "cg_8",
+    "age": 26,
+    "economic_struggle_index": 0.46,
+    "distance_from_hospital_km": 75.05,
+    "hours_caregiving_per_week": 74,
+    "support_system_strength": 0.8645315098620227,
+    "baseline_stress_weight": 0.6202
+  },
+  {
+    "caregiver_id": "cg_9",
+    "age": 31,
+    "economic_struggle_index": 1.0,
+    "distance_from_hospital_km": 46.49,
+    "hours_caregiving_per_week": 13,
+    "support_system_strength": 0.3388681098884867,
+    "baseline_stress_weight": 0.958
+  },
+  {
+    "caregiver_id": "cg_10",
+    "age": 49,
+    "economic_struggle_index": 0.47,
+    "distance_from_hospital_km": 79.28,
+    "hours_caregiving_per_week": 17,
+    "support_system_strength": 0.1737067935433686,
+    "baseline_stress_weight": 0.6198
+  },
+  {
+    "caregiver_id": "cg_11",
+    "age": 32,
+    "economic_struggle_index": 0.64,
+    "distance_from_hospital_km": 91.41,
+    "hours_caregiving_per_week": 12,
+    "support_system_strength": 0.6699941016991291,
+    "baseline_stress_weight": 0.707
+  },
+  {
+    "caregiver_id": "cg_12",
+    "age": 52,
+    "economic_struggle_index": 0.18,
+    "distance_from_hospital_km": 69.45,
+    "hours_caregiving_per_week": 43,
+    "support_system_strength": 0.4447594293300411,
+    "baseline_stress_weight": 0.5764
+  },
+  {
+    "caregiver_id": "cg_13",
+    "age": 30,
+    "economic_struggle_index": 0.27,
+    "distance_from_hospital_km": 34.68,
+    "hours_caregiving_per_week": 20,
+    "support_system_strength": 0.03852771569716684,
+    "baseline_stress_weight": 0.571
+  },
+  {
+    "caregiver_id": "cg_14",
+    "age": 51,
+    "economic_struggle_index": 0.1,
+    "distance_from_hospital_km": 97.96,
+    "hours_caregiving_per_week": 58,
+    "support_system_strength": 0.30177006035266496,
+    "baseline_stress_weight": 0.5816
+  },
+  {
+    "caregiver_id": "cg_15",
+    "age": 64,
+    "economic_struggle_index": 0.28,
+    "distance_from_hospital_km": 65.7,
+    "hours_caregiving_per_week": 36,
+    "support_system_strength": 0.8945964924997456,
+    "baseline_stress_weight": 0.707
+  },
+  {
+    "caregiver_id": "cg_16",
+    "age": 41,
+    "economic_struggle_index": 0.43,
+    "distance_from_hospital_km": 86.99,
+    "hours_caregiving_per_week": 63,
+    "support_system_strength": 0.11384659152049514,
+    "baseline_stress_weight": 0.6294
+  },
+  {
+    "caregiver_id": "cg_17",
+    "age": 32,
+    "economic_struggle_index": 0.72,
+    "distance_from_hospital_km": 69.64,
+    "hours_caregiving_per_week": 38,
+    "support_system_strength": 0.7098830264274899,
+    "baseline_stress_weight": 0.7501
+  },
+  {
+    "caregiver_id": "cg_18",
+    "age": 60,
+    "economic_struggle_index": 0.42,
+    "distance_from_hospital_km": 75.03,
+    "hours_caregiving_per_week": 50,
+    "support_system_strength": 0.851548129770176,
+    "baseline_stress_weight": 0.7549
+  },
+  {
+    "caregiver_id": "cg_19",
+    "age": 34,
+    "economic_struggle_index": 0.08,
+    "distance_from_hospital_km": 49.34,
+    "hours_caregiving_per_week": 66,
+    "support_system_strength": 0.794026852311576,
+    "baseline_stress_weight": 0.6199
+  },
+  {
+    "caregiver_id": "cg_20",
+    "age": 25,
+    "economic_struggle_index": 0.51,
+    "distance_from_hospital_km": 56.71,
+    "hours_caregiving_per_week": 23,
+    "support_system_strength": 0.6733697656524534,
+    "baseline_stress_weight": 0.6883
+  },
+  {
+    "caregiver_id": "cg_21",
+    "age": 38,
+    "economic_struggle_index": 0.5,
+    "distance_from_hospital_km": 28.68,
+    "hours_caregiving_per_week": 37,
+    "support_system_strength": 0.3378658630544046,
+    "baseline_stress_weight": 0.6182
+  },
+  {
+    "caregiver_id": "cg_22",
+    "age": 47,
+    "economic_struggle_index": 0.12,
+    "distance_from_hospital_km": 65.27,
+    "hours_caregiving_per_week": 79,
+    "support_system_strength": 0.7273517457198062,
+    "baseline_stress_weight": 0.5172
+  },
+  {
+    "caregiver_id": "cg_23",
+    "age": 45,
+    "economic_struggle_index": 0.77,
+    "distance_from_hospital_km": 89.35,
+    "hours_caregiving_per_week": 11,
+    "support_system_strength": 0.21823294659123027,
+    "baseline_stress_weight": 0.8489
+  },
+  {
+    "caregiver_id": "cg_24",
+    "age": 42,
+    "economic_struggle_index": 0.26,
+    "distance_from_hospital_km": 59.77,
+    "hours_caregiving_per_week": 72,
+    "support_system_strength": 0.2706618998560304,
+    "baseline_stress_weight": 0.6175
+  },
+  {
+    "caregiver_id": "cg_25",
+    "age": 32,
+    "economic_struggle_index": 0.82,
+    "distance_from_hospital_km": 57.26,
+    "hours_caregiving_per_week": 11,
+    "support_system_strength": 0.8640286319451498,
+    "baseline_stress_weight": 0.8661
+  },
+  {
+    "caregiver_id": "cg_26",
+    "age": 41,
+    "economic_struggle_index": 0.98,
+    "distance_from_hospital_km": 6.83,
+    "hours_caregiving_per_week": 65,
+    "support_system_strength": 0.5493510030600449,
+    "baseline_stress_weight": 0.7326
+  },
+  {
+    "caregiver_id": "cg_27",
+    "age": 46,
+    "economic_struggle_index": 0.82,
+    "distance_from_hospital_km": 55.95,
+    "hours_caregiving_per_week": 51,
+    "support_system_strength": 0.43196117879527374,
+    "baseline_stress_weight": 0.7731
+  },
+  {
+    "caregiver_id": "cg_28",
+    "age": 53,
+    "economic_struggle_index": 0.48,
+    "distance_from_hospital_km": 67.56,
+    "hours_caregiving_per_week": 58,
+    "support_system_strength": 0.8093525878901564,
+    "baseline_stress_weight": 0.7361
+  },
+  {
+    "caregiver_id": "cg_29",
+    "age": 62,
+    "economic_struggle_index": 0.19,
+    "distance_from_hospital_km": 71.15,
+    "hours_caregiving_per_week": 38,
+    "support_system_strength": 0.7946775728682234,
+    "baseline_stress_weight": 0.645
+  },
+  {
+    "caregiver_id": "cg_30",
+    "age": 47,
+    "economic_struggle_index": 0.73,
+    "distance_from_hospital_km": 1.71,
+    "hours_caregiving_per_week": 70,
+    "support_system_strength": 0.4964962341650456,
+    "baseline_stress_weight": 0.5349
+  },
+  {
+    "caregiver_id": "cg_31",
+    "age": 58,
+    "economic_struggle_index": 0.2,
+    "distance_from_hospital_km": 78.24,
+    "hours_caregiving_per_week": 43,
+    "support_system_strength": 0.8435376342112884,
+    "baseline_stress_weight": 0.6778
+  },
+  {
+    "caregiver_id": "cg_32",
+    "age": 48,
+    "economic_struggle_index": 0.17,
+    "distance_from_hospital_km": 62.82,
+    "hours_caregiving_per_week": 39,
+    "support_system_strength": 0.1771806622619968,
+    "baseline_stress_weight": 0.5448
+  },
+  {
+    "caregiver_id": "cg_33",
+    "age": 29,
+    "economic_struggle_index": 0.78,
+    "distance_from_hospital_km": 27.71,
+    "hours_caregiving_per_week": 11,
+    "support_system_strength": 0.5561092986304174,
+    "baseline_stress_weight": 0.7771
+  },
+  {
+    "caregiver_id": "cg_34",
+    "age": 29,
+    "economic_struggle_index": 0.03,
+    "distance_from_hospital_km": 44.7,
+    "hours_caregiving_per_week": 25,
+    "support_system_strength": 0.7724513764932238,
+    "baseline_stress_weight": 0.4786
+  },
+  {
+    "caregiver_id": "cg_35",
+    "age": 54,
+    "economic_struggle_index": 0.65,
+    "distance_from_hospital_km": 43.25,
+    "hours_caregiving_per_week": 15,
+    "support_system_strength": 0.3393168607132645,
+    "baseline_stress_weight": 0.736
+  },
+  {
+    "caregiver_id": "cg_36",
+    "age": 50,
+    "economic_struggle_index": 0.04,
+    "distance_from_hospital_km": 91.07,
+    "hours_caregiving_per_week": 18,
+    "support_system_strength": 0.1745914712552794,
+    "baseline_stress_weight": 0.4166
+  },
+  {
+    "caregiver_id": "cg_37",
+    "age": 62,
+    "economic_struggle_index": 0.64,
+    "distance_from_hospital_km": 59.54,
+    "hours_caregiving_per_week": 42,
+    "support_system_strength": 0.15107948991279652,
+    "baseline_stress_weight": 0.7111
+  },
+  {
+    "caregiver_id": "cg_38",
+    "age": 33,
+    "economic_struggle_index": 0.58,
+    "distance_from_hospital_km": 29.07,
+    "hours_caregiving_per_week": 68,
+    "support_system_strength": 0.7660938546956896,
+    "baseline_stress_weight": 0.557
+  },
+  {
+    "caregiver_id": "cg_39",
+    "age": 26,
+    "economic_struggle_index": 0.3,
+    "distance_from_hospital_km": 13.67,
+    "hours_caregiving_per_week": 65,
+    "support_system_strength": 0.5050511122582699,
+    "baseline_stress_weight": 0.434
+  },
+  {
+    "caregiver_id": "cg_40",
+    "age": 54,
+    "economic_struggle_index": 0.71,
+    "distance_from_hospital_km": 53.48,
+    "hours_caregiving_per_week": 13,
+    "support_system_strength": 0.6122763189308628,
+    "baseline_stress_weight": 0.8039
+  },
+  {
+    "caregiver_id": "cg_41",
+    "age": 33,
+    "economic_struggle_index": 0.75,
+    "distance_from_hospital_km": 63.24,
+    "hours_caregiving_per_week": 52,
+    "support_system_strength": 0.873645926962462,
+    "baseline_stress_weight": 0.7823
+  },
+  {
+    "caregiver_id": "cg_42",
+    "age": 65,
+    "economic_struggle_index": 0.31,
+    "distance_from_hospital_km": 87.07,
+    "hours_caregiving_per_week": 45,
+    "support_system_strength": 0.7719544661509898,
+    "baseline_stress_weight": 0.6574
+  },
+  {
+    "caregiver_id": "cg_43",
+    "age": 57,
+    "economic_struggle_index": 0.25,
+    "distance_from_hospital_km": 43.86,
+    "hours_caregiving_per_week": 11,
+    "support_system_strength": 0.09378235941039748,
+    "baseline_stress_weight": 0.6033
+  },
+  {
+    "caregiver_id": "cg_44",
+    "age": 44,
+    "economic_struggle_index": 0.22,
+    "distance_from_hospital_km": 41.64,
+    "hours_caregiving_per_week": 16,
+    "support_system_strength": 0.6666905387527641,
+    "baseline_stress_weight": 0.4763
+  },
+  {
+    "caregiver_id": "cg_45",
+    "age": 40,
+    "economic_struggle_index": 0.35,
+    "distance_from_hospital_km": 78.21,
+    "hours_caregiving_per_week": 60,
+    "support_system_strength": 0.5329077378855429,
+    "baseline_stress_weight": 0.7235
+  },
+  {
+    "caregiver_id": "cg_46",
+    "age": 35,
+    "economic_struggle_index": 0.35,
+    "distance_from_hospital_km": 35.95,
+    "hours_caregiving_per_week": 57,
+    "support_system_strength": 0.5721746924546364,
+    "baseline_stress_weight": 0.5209
+  },
+  {
+    "caregiver_id": "cg_47",
+    "age": 37,
+    "economic_struggle_index": 0.59,
+    "distance_from_hospital_km": 94.35,
+    "hours_caregiving_per_week": 74,
+    "support_system_strength": 0.013996856332851304,
+    "baseline_stress_weight": 0.6727
+  },
+  {
+    "caregiver_id": "cg_48",
+    "age": 39,
+    "economic_struggle_index": 0.25,
+    "distance_from_hospital_km": 15.76,
+    "hours_caregiving_per_week": 45,
+    "support_system_strength": 0.23844660947941465,
+    "baseline_stress_weight": 0.4774
+  },
+  {
+    "caregiver_id": "cg_49",
+    "age": 61,
+    "economic_struggle_index": 0.67,
+    "distance_from_hospital_km": 40.34,
+    "hours_caregiving_per_week": 50,
+    "support_system_strength": 0.4801431983161737,
+    "baseline_stress_weight": 0.624
+  },
+  {
+    "caregiver_id": "cg_50",
+    "age": 53,
+    "economic_struggle_index": 0.73,
+    "distance_from_hospital_km": 38.56,
+    "hours_caregiving_per_week": 67,
+    "support_system_strength": 0.9790872786089809,
+    "baseline_stress_weight": 0.6886
+  },
+  {
+    "caregiver_id": "cg_51",
+    "age": 38,
+    "economic_struggle_index": 0.04,
+    "distance_from_hospital_km": 41.18,
+    "hours_caregiving_per_week": 21,
+    "support_system_strength": 0.14347577099731046,
+    "baseline_stress_weight": 0.5178
+  },
+  {
+    "caregiver_id": "cg_52",
+    "age": 58,
+    "economic_struggle_index": 0.96,
+    "distance_from_hospital_km": 96.02,
+    "hours_caregiving_per_week": 54,
+    "support_system_strength": 0.7790269482390195,
+    "baseline_stress_weight": 0.8371
+  },
+  {
+    "caregiver_id": "cg_53",
+    "age": 47,
+    "economic_struggle_index": 0.99,
+    "distance_from_hospital_km": 43.08,
+    "hours_caregiving_per_week": 46,
+    "support_system_strength": 0.5779995080385579,
+    "baseline_stress_weight": 0.8161
+  },
+  {
+    "caregiver_id": "cg_54",
+    "age": 60,
+    "economic_struggle_index": 0.23,
+    "distance_from_hospital_km": 48.27,
+    "hours_caregiving_per_week": 61,
+    "support_system_strength": 0.9324543585141885,
+    "baseline_stress_weight": 0.5245
+  },
+  {
+    "caregiver_id": "cg_55",
+    "age": 33,
+    "economic_struggle_index": 0.86,
+    "distance_from_hospital_km": 0.31,
+    "hours_caregiving_per_week": 14,
+    "support_system_strength": 0.6759541085813436,
+    "baseline_stress_weight": 0.4925
+  },
+  {
+    "caregiver_id": "cg_56",
+    "age": 41,
+    "economic_struggle_index": 0.31,
+    "distance_from_hospital_km": 72.12,
+    "hours_caregiving_per_week": 25,
+    "support_system_strength": 0.7119525098227177,
+    "baseline_stress_weight": 0.5718
+  },
+  {
+    "caregiver_id": "cg_57",
+    "age": 52,
+    "economic_struggle_index": 0.64,
+    "distance_from_hospital_km": 81.38,
+    "hours_caregiving_per_week": 75,
+    "support_system_strength": 0.4462842330839949,
+    "baseline_stress_weight": 0.7604
+  },
+  {
+    "caregiver_id": "cg_58",
+    "age": 57,
+    "economic_struggle_index": 0.45,
+    "distance_from_hospital_km": 20.54,
+    "hours_caregiving_per_week": 69,
+    "support_system_strength": 0.38928679141076095,
+    "baseline_stress_weight": 0.4245
+  },
+  {
+    "caregiver_id": "cg_59",
+    "age": 27,
+    "economic_struggle_index": 0.17,
+    "distance_from_hospital_km": 3.85,
+    "hours_caregiving_per_week": 18,
+    "support_system_strength": 0.19506057816243194,
+    "baseline_stress_weight": 0.3696
+  },
+  {
+    "caregiver_id": "cg_60",
+    "age": 41,
+    "economic_struggle_index": 0.21,
+    "distance_from_hospital_km": 71.65,
+    "hours_caregiving_per_week": 53,
+    "support_system_strength": 0.10030160765634744,
+    "baseline_stress_weight": 0.5277
+  },
+  {
+    "caregiver_id": "cg_61",
+    "age": 40,
+    "economic_struggle_index": 0.5,
+    "distance_from_hospital_km": 45.07,
+    "hours_caregiving_per_week": 30,
+    "support_system_strength": 0.3868259233373921,
+    "baseline_stress_weight": 0.6339
+  },
+  {
+    "caregiver_id": "cg_62",
+    "age": 59,
+    "economic_struggle_index": 0.81,
+    "distance_from_hospital_km": 53.03,
+    "hours_caregiving_per_week": 59,
+    "support_system_strength": 0.9441908672671926,
+    "baseline_stress_weight": 0.8867
+  },
+  {
+    "caregiver_id": "cg_63",
+    "age": 50,
+    "economic_struggle_index": 0.52,
+    "distance_from_hospital_km": 28.37,
+    "hours_caregiving_per_week": 70,
+    "support_system_strength": 0.4525908488717526,
+    "baseline_stress_weight": 0.4812
+  },
+  {
+    "caregiver_id": "cg_64",
+    "age": 26,
+    "economic_struggle_index": 0.3,
+    "distance_from_hospital_km": 53.69,
+    "hours_caregiving_per_week": 56,
+    "support_system_strength": 0.9311602136025592,
+    "baseline_stress_weight": 0.6536
+  },
+  {
+    "caregiver_id": "cg_65",
+    "age": 32,
+    "economic_struggle_index": 0.78,
+    "distance_from_hospital_km": 81.31,
+    "hours_caregiving_per_week": 19,
+    "support_system_strength": 0.2412723765696425,
+    "baseline_stress_weight": 0.7765
+  },
+  {
+    "caregiver_id": "cg_66",
+    "age": 26,
+    "economic_struggle_index": 0.11,
+    "distance_from_hospital_km": 7.61,
+    "hours_caregiving_per_week": 65,
+    "support_system_strength": 0.48451801070286504,
+    "baseline_stress_weight": 0.2504
+  },
+  {
+    "caregiver_id": "cg_67",
+    "age": 40,
+    "economic_struggle_index": 0.66,
+    "distance_from_hospital_km": 41.04,
+    "hours_caregiving_per_week": 47,
+    "support_system_strength": 0.43691127426479215,
+    "baseline_stress_weight": 0.7209
+  },
+  {
+    "caregiver_id": "cg_68",
+    "age": 55,
+    "economic_struggle_index": 0.07,
+    "distance_from_hospital_km": 95.14,
+    "hours_caregiving_per_week": 13,
+    "support_system_strength": 0.6713305378674593,
+    "baseline_stress_weight": 0.4516
+  },
+  {
+    "caregiver_id": "cg_69",
+    "age": 53,
+    "economic_struggle_index": 0.12,
+    "distance_from_hospital_km": 33.97,
+    "hours_caregiving_per_week": 14,
+    "support_system_strength": 0.7232157266355153,
+    "baseline_stress_weight": 0.4129
+  },
+  {
+    "caregiver_id": "cg_70",
+    "age": 44,
+    "economic_struggle_index": 0.86,
+    "distance_from_hospital_km": 32.05,
+    "hours_caregiving_per_week": 48,
+    "support_system_strength": 0.912588525294955,
+    "baseline_stress_weight": 0.7867
+  },
+  {
+    "caregiver_id": "cg_71",
+    "age": 55,
+    "economic_struggle_index": 0.3,
+    "distance_from_hospital_km": 84.91,
+    "hours_caregiving_per_week": 17,
+    "support_system_strength": 0.35239897414035815,
+    "baseline_stress_weight": 0.5373
+  },
+  {
+    "caregiver_id": "cg_72",
+    "age": 35,
+    "economic_struggle_index": 0.76,
+    "distance_from_hospital_km": 46.23,
+    "hours_caregiving_per_week": 12,
+    "support_system_strength": 0.5758772206087728,
+    "baseline_stress_weight": 0.7268
+  },
+  {
+    "caregiver_id": "cg_73",
+    "age": 57,
+    "economic_struggle_index": 0.87,
+    "distance_from_hospital_km": 65.68,
+    "hours_caregiving_per_week": 71,
+    "support_system_strength": 0.7159307730737813,
+    "baseline_stress_weight": 0.9402
+  },
+  {
+    "caregiver_id": "cg_74",
+    "age": 34,
+    "economic_struggle_index": 0.08,
+    "distance_from_hospital_km": 3.41,
+    "hours_caregiving_per_week": 21,
+    "support_system_strength": 0.6253079095244594,
+    "baseline_stress_weight": 0.2103
+  },
+  {
+    "caregiver_id": "cg_75",
+    "age": 63,
+    "economic_struggle_index": 0.85,
+    "distance_from_hospital_km": 85.86,
+    "hours_caregiving_per_week": 77,
+    "support_system_strength": 0.24511169442416314,
+    "baseline_stress_weight": 0.8096
+  },
+  {
+    "caregiver_id": "cg_76",
+    "age": 37,
+    "economic_struggle_index": 0.35,
+    "distance_from_hospital_km": 14.55,
+    "hours_caregiving_per_week": 69,
+    "support_system_strength": 0.1134102427571475,
+    "baseline_stress_weight": 0.5092
+  },
+  {
+    "caregiver_id": "cg_77",
+    "age": 37,
+    "economic_struggle_index": 0.41,
+    "distance_from_hospital_km": 88.49,
+    "hours_caregiving_per_week": 17,
+    "support_system_strength": 0.33344643441310184,
+    "baseline_stress_weight": 0.727
+  },
+  {
+    "caregiver_id": "cg_78",
+    "age": 59,
+    "economic_struggle_index": 0.7,
+    "distance_from_hospital_km": 25.52,
+    "hours_caregiving_per_week": 65,
+    "support_system_strength": 0.23865469119453198,
+    "baseline_stress_weight": 0.5481
+  },
+  {
+    "caregiver_id": "cg_79",
+    "age": 49,
+    "economic_struggle_index": 0.79,
+    "distance_from_hospital_km": 77.77,
+    "hours_caregiving_per_week": 58,
+    "support_system_strength": 0.6869503815140402,
+    "baseline_stress_weight": 0.9143
+  },
+  {
+    "caregiver_id": "cg_80",
+    "age": 46,
+    "economic_struggle_index": 0.69,
+    "distance_from_hospital_km": 95.63,
+    "hours_caregiving_per_week": 14,
+    "support_system_strength": 0.807505953847993,
+    "baseline_stress_weight": 0.675
+  },
+  {
+    "caregiver_id": "cg_81",
+    "age": 58,
+    "economic_struggle_index": 0.52,
+    "distance_from_hospital_km": 42.31,
+    "hours_caregiving_per_week": 68,
+    "support_system_strength": 0.8579177639251236,
+    "baseline_stress_weight": 0.5954
+  },
+  {
+    "caregiver_id": "cg_82",
+    "age": 40,
+    "economic_struggle_index": 0.46,
+    "distance_from_hospital_km": 58.9,
+    "hours_caregiving_per_week": 22,
+    "support_system_strength": 0.6619058648436649,
+    "baseline_stress_weight": 0.762
+  },
+  {
+    "caregiver_id": "cg_83",
+    "age": 47,
+    "economic_struggle_index": 0.64,
+    "distance_from_hospital_km": 46.06,
+    "hours_caregiving_per_week": 51,
+    "support_system_strength": 0.7402316751052465,
+    "baseline_stress_weight": 0.7378
+  },
+  {
+    "caregiver_id": "cg_84",
+    "age": 51,
+    "economic_struggle_index": 0.93,
+    "distance_from_hospital_km": 34.71,
+    "hours_caregiving_per_week": 54,
+    "support_system_strength": 0.9554465310259066,
+    "baseline_stress_weight": 0.7634
+  },
+  {
+    "caregiver_id": "cg_85",
+    "age": 48,
+    "economic_struggle_index": 0.38,
+    "distance_from_hospital_km": 53.03,
+    "hours_caregiving_per_week": 53,
+    "support_system_strength": 0.5976901305474258,
+    "baseline_stress_weight": 0.6892
+  },
+  {
+    "caregiver_id": "cg_86",
+    "age": 36,
+    "economic_struggle_index": 0.77,
+    "distance_from_hospital_km": 19.65,
+    "hours_caregiving_per_week": 36,
+    "support_system_strength": 0.7963750009249541,
+    "baseline_stress_weight": 0.6492
+  },
+  {
+    "caregiver_id": "cg_87",
+    "age": 48,
+    "economic_struggle_index": 0.52,
+    "distance_from_hospital_km": 78.56,
+    "hours_caregiving_per_week": 23,
+    "support_system_strength": 0.1386703043816967,
+    "baseline_stress_weight": 0.6128
+  },
+  {
+    "caregiver_id": "cg_88",
+    "age": 60,
+    "economic_struggle_index": 0.6,
+    "distance_from_hospital_km": 74.42,
+    "hours_caregiving_per_week": 32,
+    "support_system_strength": 0.8877428653624152,
+    "baseline_stress_weight": 0.6901
+  },
+  {
+    "caregiver_id": "cg_89",
+    "age": 39,
+    "economic_struggle_index": 0.52,
+    "distance_from_hospital_km": 23.81,
+    "hours_caregiving_per_week": 54,
+    "support_system_strength": 0.13874381775019573,
+    "baseline_stress_weight": 0.5109
+  },
+  {
+    "caregiver_id": "cg_90",
+    "age": 38,
+    "economic_struggle_index": 0.8,
+    "distance_from_hospital_km": 57.74,
+    "hours_caregiving_per_week": 51,
+    "support_system_strength": 0.8518462714022514,
+    "baseline_stress_weight": 0.7762
+  },
+  {
+    "caregiver_id": "cg_91",
+    "age": 56,
+    "economic_struggle_index": 0.2,
+    "distance_from_hospital_km": 54.53,
+    "hours_caregiving_per_week": 78,
+    "support_system_strength": 0.5311451106733889,
+    "baseline_stress_weight": 0.6549
+  },
+  {
+    "caregiver_id": "cg_92",
+    "age": 64,
+    "economic_struggle_index": 0.28,
+    "distance_from_hospital_km": 39.63,
+    "hours_caregiving_per_week": 35,
+    "support_system_strength": 0.42111838731550744,
+    "baseline_stress_weight": 0.4581
+  },
+  {
+    "caregiver_id": "cg_93",
+    "age": 39,
+    "economic_struggle_index": 0.43,
+    "distance_from_hospital_km": 49.31,
+    "hours_caregiving_per_week": 70,
+    "support_system_strength": 0.553093059641033,
+    "baseline_stress_weight": 0.6849
+  },
+  {
+    "caregiver_id": "cg_94",
+    "age": 35,
+    "economic_struggle_index": 0.59,
+    "distance_from_hospital_km": 13.12,
+    "hours_caregiving_per_week": 37,
+    "support_system_strength": 0.22618197020012754,
+    "baseline_stress_weight": 0.5601
+  },
+  {
+    "caregiver_id": "cg_95",
+    "age": 56,
+    "economic_struggle_index": 0.19,
+    "distance_from_hospital_km": 82.85,
+    "hours_caregiving_per_week": 64,
+    "support_system_strength": 0.550353854471536,
+    "baseline_stress_weight": 0.4861
+  },
+  {
+    "caregiver_id": "cg_96",
+    "age": 62,
+    "economic_struggle_index": 0.41,
+    "distance_from_hospital_km": 29.02,
+    "hours_caregiving_per_week": 77,
+    "support_system_strength": 0.3108884311668154,
+    "baseline_stress_weight": 0.4438
+  },
+  {
+    "caregiver_id": "cg_97",
+    "age": 52,
+    "economic_struggle_index": 0.13,
+    "distance_from_hospital_km": 16.06,
+    "hours_caregiving_per_week": 34,
+    "support_system_strength": 0.2909213089250007,
+    "baseline_stress_weight": 0.4478
+  },
+  {
+    "caregiver_id": "cg_98",
+    "age": 57,
+    "economic_struggle_index": 0.11,
+    "distance_from_hospital_km": 20.33,
+    "hours_caregiving_per_week": 62,
+    "support_system_strength": 0.5673844412785853,
+    "baseline_stress_weight": 0.2873
+  },
+  {
+    "caregiver_id": "cg_99",
+    "age": 54,
+    "economic_struggle_index": 0.26,
+    "distance_from_hospital_km": 15.98,
+    "hours_caregiving_per_week": 51,
+    "support_system_strength": 0.3752280789479886,
+    "baseline_stress_weight": 0.3453
+  }
+]

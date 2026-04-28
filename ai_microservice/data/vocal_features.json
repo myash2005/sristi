@@ -1,0 +1,802 @@
+[
+  {
+    "sample_id": "vf_0",
+    "pitch_hz": 163.44,
+    "jitter_percent": 0.053,
+    "shimmer_percent": 0.0674,
+    "pause_duration_s": 0.39,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_1",
+    "pitch_hz": 177.13,
+    "jitter_percent": 0.0365,
+    "shimmer_percent": 0.0519,
+    "pause_duration_s": 0.51,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_2",
+    "pitch_hz": 210.76,
+    "jitter_percent": 0.024,
+    "shimmer_percent": 0.0449,
+    "pause_duration_s": 0.2,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_3",
+    "pitch_hz": 160.14,
+    "jitter_percent": 0.0347,
+    "shimmer_percent": 0.0706,
+    "pause_duration_s": 0.52,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_4",
+    "pitch_hz": 165.66,
+    "jitter_percent": 0.0514,
+    "shimmer_percent": 0.0798,
+    "pause_duration_s": 0.53,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_5",
+    "pitch_hz": 214.11,
+    "jitter_percent": 0.0203,
+    "shimmer_percent": 0.0497,
+    "pause_duration_s": 0.13,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_6",
+    "pitch_hz": 202.89,
+    "jitter_percent": 0.0199,
+    "shimmer_percent": 0.0361,
+    "pause_duration_s": 0.25,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_7",
+    "pitch_hz": 215.51,
+    "jitter_percent": 0.0154,
+    "shimmer_percent": 0.0488,
+    "pause_duration_s": 0.26,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_8",
+    "pitch_hz": 170.6,
+    "jitter_percent": 0.0311,
+    "shimmer_percent": 0.0693,
+    "pause_duration_s": 0.57,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_9",
+    "pitch_hz": 149.65,
+    "jitter_percent": 0.0602,
+    "shimmer_percent": 0.1193,
+    "pause_duration_s": 0.86,
+    "energy_state_label": "Burnout"
+  },
+  {
+    "sample_id": "vf_10",
+    "pitch_hz": 159.35,
+    "jitter_percent": 0.0547,
+    "shimmer_percent": 0.0661,
+    "pause_duration_s": 0.3,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_11",
+    "pitch_hz": 176.85,
+    "jitter_percent": 0.0564,
+    "shimmer_percent": 0.0588,
+    "pause_duration_s": 0.42,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_12",
+    "pitch_hz": 187.81,
+    "jitter_percent": 0.0294,
+    "shimmer_percent": 0.0477,
+    "pause_duration_s": 0.27,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_13",
+    "pitch_hz": 166.23,
+    "jitter_percent": 0.0344,
+    "shimmer_percent": 0.0545,
+    "pause_duration_s": 0.35,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_14",
+    "pitch_hz": 192.51,
+    "jitter_percent": 0.0231,
+    "shimmer_percent": 0.0407,
+    "pause_duration_s": 0.22,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_15",
+    "pitch_hz": 136.3,
+    "jitter_percent": 0.0646,
+    "shimmer_percent": 0.1357,
+    "pause_duration_s": 0.99,
+    "energy_state_label": "Burnout"
+  },
+  {
+    "sample_id": "vf_16",
+    "pitch_hz": 165.49,
+    "jitter_percent": 0.0324,
+    "shimmer_percent": 0.0611,
+    "pause_duration_s": 0.44,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_17",
+    "pitch_hz": 136.1,
+    "jitter_percent": 0.0943,
+    "shimmer_percent": 0.1024,
+    "pause_duration_s": 0.92,
+    "energy_state_label": "Burnout"
+  },
+  {
+    "sample_id": "vf_18",
+    "pitch_hz": 165.26,
+    "jitter_percent": 0.0314,
+    "shimmer_percent": 0.0712,
+    "pause_duration_s": 0.46,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_19",
+    "pitch_hz": 138.03,
+    "jitter_percent": 0.0816,
+    "shimmer_percent": 0.1012,
+    "pause_duration_s": 1.02,
+    "energy_state_label": "Burnout"
+  },
+  {
+    "sample_id": "vf_20",
+    "pitch_hz": 161.55,
+    "jitter_percent": 0.0506,
+    "shimmer_percent": 0.0684,
+    "pause_duration_s": 0.35,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_21",
+    "pitch_hz": 151.07,
+    "jitter_percent": 0.049,
+    "shimmer_percent": 0.0603,
+    "pause_duration_s": 0.56,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_22",
+    "pitch_hz": 159.01,
+    "jitter_percent": 0.0444,
+    "shimmer_percent": 0.0767,
+    "pause_duration_s": 0.32,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_23",
+    "pitch_hz": 133.83,
+    "jitter_percent": 0.0914,
+    "shimmer_percent": 0.108,
+    "pause_duration_s": 0.72,
+    "energy_state_label": "Burnout"
+  },
+  {
+    "sample_id": "vf_24",
+    "pitch_hz": 155.83,
+    "jitter_percent": 0.0584,
+    "shimmer_percent": 0.0531,
+    "pause_duration_s": 0.39,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_25",
+    "pitch_hz": 213.55,
+    "jitter_percent": 0.0252,
+    "shimmer_percent": 0.0388,
+    "pause_duration_s": 0.26,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_26",
+    "pitch_hz": 166.42,
+    "jitter_percent": 0.0475,
+    "shimmer_percent": 0.079,
+    "pause_duration_s": 0.48,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_27",
+    "pitch_hz": 174.36,
+    "jitter_percent": 0.0491,
+    "shimmer_percent": 0.0649,
+    "pause_duration_s": 0.51,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_28",
+    "pitch_hz": 152.98,
+    "jitter_percent": 0.034,
+    "shimmer_percent": 0.0753,
+    "pause_duration_s": 0.54,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_29",
+    "pitch_hz": 151.26,
+    "jitter_percent": 0.0371,
+    "shimmer_percent": 0.0709,
+    "pause_duration_s": 0.58,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_30",
+    "pitch_hz": 147.58,
+    "jitter_percent": 0.0611,
+    "shimmer_percent": 0.1313,
+    "pause_duration_s": 0.8,
+    "energy_state_label": "Burnout"
+  },
+  {
+    "sample_id": "vf_31",
+    "pitch_hz": 215.5,
+    "jitter_percent": 0.0222,
+    "shimmer_percent": 0.0455,
+    "pause_duration_s": 0.12,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_32",
+    "pitch_hz": 130.3,
+    "jitter_percent": 0.0785,
+    "shimmer_percent": 0.1054,
+    "pause_duration_s": 1.03,
+    "energy_state_label": "Burnout"
+  },
+  {
+    "sample_id": "vf_33",
+    "pitch_hz": 177.41,
+    "jitter_percent": 0.057,
+    "shimmer_percent": 0.0653,
+    "pause_duration_s": 0.49,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_34",
+    "pitch_hz": 148.34,
+    "jitter_percent": 0.0819,
+    "shimmer_percent": 0.0836,
+    "pause_duration_s": 0.61,
+    "energy_state_label": "Burnout"
+  },
+  {
+    "sample_id": "vf_35",
+    "pitch_hz": 216.47,
+    "jitter_percent": 0.0114,
+    "shimmer_percent": 0.0408,
+    "pause_duration_s": 0.17,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_36",
+    "pitch_hz": 216.33,
+    "jitter_percent": 0.0216,
+    "shimmer_percent": 0.0216,
+    "pause_duration_s": 0.29,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_37",
+    "pitch_hz": 183.13,
+    "jitter_percent": 0.0116,
+    "shimmer_percent": 0.0227,
+    "pause_duration_s": 0.18,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_38",
+    "pitch_hz": 198.88,
+    "jitter_percent": 0.0115,
+    "shimmer_percent": 0.0434,
+    "pause_duration_s": 0.19,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_39",
+    "pitch_hz": 174.7,
+    "jitter_percent": 0.0528,
+    "shimmer_percent": 0.0515,
+    "pause_duration_s": 0.52,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_40",
+    "pitch_hz": 207.73,
+    "jitter_percent": 0.0247,
+    "shimmer_percent": 0.0291,
+    "pause_duration_s": 0.21,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_41",
+    "pitch_hz": 137.98,
+    "jitter_percent": 0.0885,
+    "shimmer_percent": 0.0977,
+    "pause_duration_s": 1.07,
+    "energy_state_label": "Burnout"
+  },
+  {
+    "sample_id": "vf_42",
+    "pitch_hz": 151.84,
+    "jitter_percent": 0.0372,
+    "shimmer_percent": 0.0646,
+    "pause_duration_s": 0.35,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_43",
+    "pitch_hz": 138.18,
+    "jitter_percent": 0.0991,
+    "shimmer_percent": 0.0955,
+    "pause_duration_s": 0.87,
+    "energy_state_label": "Burnout"
+  },
+  {
+    "sample_id": "vf_44",
+    "pitch_hz": 147.83,
+    "jitter_percent": 0.0914,
+    "shimmer_percent": 0.0989,
+    "pause_duration_s": 0.87,
+    "energy_state_label": "Burnout"
+  },
+  {
+    "sample_id": "vf_45",
+    "pitch_hz": 163.48,
+    "jitter_percent": 0.032,
+    "shimmer_percent": 0.0545,
+    "pause_duration_s": 0.48,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_46",
+    "pitch_hz": 183.2,
+    "jitter_percent": 0.0112,
+    "shimmer_percent": 0.0302,
+    "pause_duration_s": 0.26,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_47",
+    "pitch_hz": 206.9,
+    "jitter_percent": 0.0202,
+    "shimmer_percent": 0.0429,
+    "pause_duration_s": 0.16,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_48",
+    "pitch_hz": 180.8,
+    "jitter_percent": 0.0197,
+    "shimmer_percent": 0.0448,
+    "pause_duration_s": 0.1,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_49",
+    "pitch_hz": 213.65,
+    "jitter_percent": 0.0151,
+    "shimmer_percent": 0.0362,
+    "pause_duration_s": 0.3,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_50",
+    "pitch_hz": 145.99,
+    "jitter_percent": 0.0896,
+    "shimmer_percent": 0.1246,
+    "pause_duration_s": 1.19,
+    "energy_state_label": "Burnout"
+  },
+  {
+    "sample_id": "vf_51",
+    "pitch_hz": 219.91,
+    "jitter_percent": 0.0116,
+    "shimmer_percent": 0.0371,
+    "pause_duration_s": 0.16,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_52",
+    "pitch_hz": 189.72,
+    "jitter_percent": 0.0254,
+    "shimmer_percent": 0.0439,
+    "pause_duration_s": 0.27,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_53",
+    "pitch_hz": 189.76,
+    "jitter_percent": 0.0259,
+    "shimmer_percent": 0.0236,
+    "pause_duration_s": 0.3,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_54",
+    "pitch_hz": 142.19,
+    "jitter_percent": 0.0771,
+    "shimmer_percent": 0.0908,
+    "pause_duration_s": 1.16,
+    "energy_state_label": "Burnout"
+  },
+  {
+    "sample_id": "vf_55",
+    "pitch_hz": 162.29,
+    "jitter_percent": 0.0401,
+    "shimmer_percent": 0.0784,
+    "pause_duration_s": 0.49,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_56",
+    "pitch_hz": 174.17,
+    "jitter_percent": 0.0411,
+    "shimmer_percent": 0.0678,
+    "pause_duration_s": 0.36,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_57",
+    "pitch_hz": 182.07,
+    "jitter_percent": 0.0187,
+    "shimmer_percent": 0.0398,
+    "pause_duration_s": 0.23,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_58",
+    "pitch_hz": 216.45,
+    "jitter_percent": 0.0191,
+    "shimmer_percent": 0.0329,
+    "pause_duration_s": 0.26,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_59",
+    "pitch_hz": 148.81,
+    "jitter_percent": 0.0768,
+    "shimmer_percent": 0.1438,
+    "pause_duration_s": 0.68,
+    "energy_state_label": "Burnout"
+  },
+  {
+    "sample_id": "vf_60",
+    "pitch_hz": 185.49,
+    "jitter_percent": 0.0102,
+    "shimmer_percent": 0.0357,
+    "pause_duration_s": 0.12,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_61",
+    "pitch_hz": 200.8,
+    "jitter_percent": 0.0193,
+    "shimmer_percent": 0.0362,
+    "pause_duration_s": 0.23,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_62",
+    "pitch_hz": 198.47,
+    "jitter_percent": 0.0286,
+    "shimmer_percent": 0.035,
+    "pause_duration_s": 0.17,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_63",
+    "pitch_hz": 180.34,
+    "jitter_percent": 0.0269,
+    "shimmer_percent": 0.0262,
+    "pause_duration_s": 0.25,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_64",
+    "pitch_hz": 215.23,
+    "jitter_percent": 0.0232,
+    "shimmer_percent": 0.0329,
+    "pause_duration_s": 0.19,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_65",
+    "pitch_hz": 174.19,
+    "jitter_percent": 0.0556,
+    "shimmer_percent": 0.0772,
+    "pause_duration_s": 0.48,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_66",
+    "pitch_hz": 142.67,
+    "jitter_percent": 0.0943,
+    "shimmer_percent": 0.0925,
+    "pause_duration_s": 1.08,
+    "energy_state_label": "Burnout"
+  },
+  {
+    "sample_id": "vf_67",
+    "pitch_hz": 175.54,
+    "jitter_percent": 0.0324,
+    "shimmer_percent": 0.0678,
+    "pause_duration_s": 0.49,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_68",
+    "pitch_hz": 184.11,
+    "jitter_percent": 0.0219,
+    "shimmer_percent": 0.0444,
+    "pause_duration_s": 0.1,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_69",
+    "pitch_hz": 173.83,
+    "jitter_percent": 0.0441,
+    "shimmer_percent": 0.0519,
+    "pause_duration_s": 0.44,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_70",
+    "pitch_hz": 133.44,
+    "jitter_percent": 0.0722,
+    "shimmer_percent": 0.1172,
+    "pause_duration_s": 0.94,
+    "energy_state_label": "Burnout"
+  },
+  {
+    "sample_id": "vf_71",
+    "pitch_hz": 130.8,
+    "jitter_percent": 0.064,
+    "shimmer_percent": 0.1009,
+    "pause_duration_s": 1.0,
+    "energy_state_label": "Burnout"
+  },
+  {
+    "sample_id": "vf_72",
+    "pitch_hz": 142.5,
+    "jitter_percent": 0.0689,
+    "shimmer_percent": 0.0965,
+    "pause_duration_s": 1.13,
+    "energy_state_label": "Burnout"
+  },
+  {
+    "sample_id": "vf_73",
+    "pitch_hz": 186.45,
+    "jitter_percent": 0.0132,
+    "shimmer_percent": 0.0436,
+    "pause_duration_s": 0.23,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_74",
+    "pitch_hz": 132.7,
+    "jitter_percent": 0.0972,
+    "shimmer_percent": 0.1339,
+    "pause_duration_s": 1.12,
+    "energy_state_label": "Burnout"
+  },
+  {
+    "sample_id": "vf_75",
+    "pitch_hz": 210.32,
+    "jitter_percent": 0.0211,
+    "shimmer_percent": 0.0469,
+    "pause_duration_s": 0.21,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_76",
+    "pitch_hz": 216.81,
+    "jitter_percent": 0.0285,
+    "shimmer_percent": 0.0425,
+    "pause_duration_s": 0.18,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_77",
+    "pitch_hz": 167.02,
+    "jitter_percent": 0.0569,
+    "shimmer_percent": 0.062,
+    "pause_duration_s": 0.59,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_78",
+    "pitch_hz": 191.76,
+    "jitter_percent": 0.0193,
+    "shimmer_percent": 0.0453,
+    "pause_duration_s": 0.22,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_79",
+    "pitch_hz": 132.1,
+    "jitter_percent": 0.0957,
+    "shimmer_percent": 0.1019,
+    "pause_duration_s": 0.85,
+    "energy_state_label": "Burnout"
+  },
+  {
+    "sample_id": "vf_80",
+    "pitch_hz": 206.36,
+    "jitter_percent": 0.0203,
+    "shimmer_percent": 0.0231,
+    "pause_duration_s": 0.22,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_81",
+    "pitch_hz": 148.19,
+    "jitter_percent": 0.0795,
+    "shimmer_percent": 0.1221,
+    "pause_duration_s": 0.76,
+    "energy_state_label": "Burnout"
+  },
+  {
+    "sample_id": "vf_82",
+    "pitch_hz": 162.77,
+    "jitter_percent": 0.0438,
+    "shimmer_percent": 0.0663,
+    "pause_duration_s": 0.51,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_83",
+    "pitch_hz": 156.2,
+    "jitter_percent": 0.056,
+    "shimmer_percent": 0.0611,
+    "pause_duration_s": 0.38,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_84",
+    "pitch_hz": 157.84,
+    "jitter_percent": 0.0479,
+    "shimmer_percent": 0.0577,
+    "pause_duration_s": 0.39,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_85",
+    "pitch_hz": 168.77,
+    "jitter_percent": 0.0567,
+    "shimmer_percent": 0.0558,
+    "pause_duration_s": 0.37,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_86",
+    "pitch_hz": 151.09,
+    "jitter_percent": 0.0477,
+    "shimmer_percent": 0.0727,
+    "pause_duration_s": 0.43,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_87",
+    "pitch_hz": 158.51,
+    "jitter_percent": 0.0441,
+    "shimmer_percent": 0.0551,
+    "pause_duration_s": 0.53,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_88",
+    "pitch_hz": 148.41,
+    "jitter_percent": 0.0658,
+    "shimmer_percent": 0.1033,
+    "pause_duration_s": 0.88,
+    "energy_state_label": "Burnout"
+  },
+  {
+    "sample_id": "vf_89",
+    "pitch_hz": 194.32,
+    "jitter_percent": 0.0227,
+    "shimmer_percent": 0.029,
+    "pause_duration_s": 0.18,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_90",
+    "pitch_hz": 140.08,
+    "jitter_percent": 0.0664,
+    "shimmer_percent": 0.1072,
+    "pause_duration_s": 1.18,
+    "energy_state_label": "Burnout"
+  },
+  {
+    "sample_id": "vf_91",
+    "pitch_hz": 135.62,
+    "jitter_percent": 0.0906,
+    "shimmer_percent": 0.0807,
+    "pause_duration_s": 0.89,
+    "energy_state_label": "Burnout"
+  },
+  {
+    "sample_id": "vf_92",
+    "pitch_hz": 164.73,
+    "jitter_percent": 0.0521,
+    "shimmer_percent": 0.0696,
+    "pause_duration_s": 0.51,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_93",
+    "pitch_hz": 184.94,
+    "jitter_percent": 0.0135,
+    "shimmer_percent": 0.0444,
+    "pause_duration_s": 0.24,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_94",
+    "pitch_hz": 187.88,
+    "jitter_percent": 0.0128,
+    "shimmer_percent": 0.0492,
+    "pause_duration_s": 0.1,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_95",
+    "pitch_hz": 176.29,
+    "jitter_percent": 0.0578,
+    "shimmer_percent": 0.0555,
+    "pause_duration_s": 0.59,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_96",
+    "pitch_hz": 132.08,
+    "jitter_percent": 0.0835,
+    "shimmer_percent": 0.109,
+    "pause_duration_s": 0.76,
+    "energy_state_label": "Burnout"
+  },
+  {
+    "sample_id": "vf_97",
+    "pitch_hz": 187.89,
+    "jitter_percent": 0.0182,
+    "shimmer_percent": 0.0498,
+    "pause_duration_s": 0.12,
+    "energy_state_label": "Vitality"
+  },
+  {
+    "sample_id": "vf_98",
+    "pitch_hz": 174.2,
+    "jitter_percent": 0.0455,
+    "shimmer_percent": 0.0766,
+    "pause_duration_s": 0.51,
+    "energy_state_label": "Fatigue"
+  },
+  {
+    "sample_id": "vf_99",
+    "pitch_hz": 188.8,
+    "jitter_percent": 0.0235,
+    "shimmer_percent": 0.0366,
+    "pause_duration_s": 0.25,
+    "energy_state_label": "Vitality"
+  }
+]
