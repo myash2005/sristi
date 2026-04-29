@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Aura: Caregiver Health-Tech System
 
 Aura is a caregiver-centered system designed to detect and mitigate burnout risk through technical perfection, high-fidelity UI, and deep emotional intelligence. This repository contains the complete modular architecture, spanning from the Flutter frontend to the Node.js backend and the Python Multi-Modal AI microservice.
@@ -67,3 +68,6 @@ By training this model on our synthetic "Intervention Logs" (Dataset 4), the mod
 3. Generate synthetic data: `python data_generator.py`
 4. Train the model: `python train.py`
 5. Start the server: `python app.py`
+=======
+# team-129
+>>>>>>> 8b22d6d9bc74ceffca3d7387800af0f11e3748ac
