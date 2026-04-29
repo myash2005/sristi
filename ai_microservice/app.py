@@ -17,6 +17,10 @@ if os.path.exists(model_path):
 else:
     print("Warning: 'aura_model.pth' not found. Using untrained model for demo purposes.")
 
+@app.route("/health", methods=["GET"])
+def health():
+    return jsonify({"status": "ok"}), 200
+
 @app.route("/predict", methods=["POST"])
 def predict():
     try:

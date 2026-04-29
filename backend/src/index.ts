@@ -2,6 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
+import path from 'path';
 import { submitCheckIn, getDemoData } from './presentation/controllers/checkInController';
 
 dotenv.config();
@@ -16,6 +17,10 @@ app.use(express.json());
 app.post('/api/checkin', submitCheckIn);
 app.get('/api/demo', getDemoData);
 
+// Serve React frontend
+app.use(express.static(path.join(__dirname, '../public')));
+app.get('*', (_req, res) => res.sendFile(path.join(__dirname, '../public/index.html')));
+
 // Basic error handler
 app.use((err: any, req: express.Request, res: express.Response, next: express.NextFunction) => {
     console.error(err.stack);
@@ -24,8 +29,8 @@ app.use((err: any, req: express.Request, res: express.Response, next: express.Ne
 
 // Database connection (Mocked for demo purposes, will not crash if Mongo is not running)
 const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/aura';
-mongoose.connect(MONGO_URI)
-    .then(() => console.log('MongoDB connected (or mocked via memory)'))
+mongoose.connect(MONGO_URI, { serverSelectionTimeoutMS: 3000, bufferCommands: false })
+    .then(() => console.log('MongoDB connected'))
     .catch(err => console.error('MongoDB connection error. Starting without DB persistence.', err.message));
 
 app.listen(PORT, () => {

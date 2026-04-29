@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - AI_MICROSERVICE_URL=http://ai_microservice:5000/predict
+      - MONGO_URI=mongodb://mongo:27017/aura
+      - ENCRYPTION_SECRET=aura-secret-key
+      - ENCRYPTION_SALT=aura-salt
+    depends_on:
+      mongo:
+        condition: service_healthy
+      ai_microservice:
+        condition: service_healthy
+    restart: on-failure
+
+  ai_microservice:
+    build: ./ai_microservice
+    ports:
+      - "5000:5000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:5000/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 15s
+
+  mongo:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+volumes:
+  mongo_data:

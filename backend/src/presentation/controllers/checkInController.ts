@@ -19,6 +19,8 @@ export const submitCheckIn = async (req: Request, res: Response) => {
         // 2. Fetch Burnout Risk Index from AI Microservice
         let aiStressIndex = 0.5; // Default fallback
         try {
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), 5000);
             const aiResponse = await fetch(AI_MICROSERVICE_URL, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
@@ -26,8 +28,10 @@ export const submitCheckIn = async (req: Request, res: Response) => {
                     baseline: baselineData || [0.5, 0.5, 0.5, 0.5, 0.5],
                     vocal: [0.5, 0.05, 0.05, 0.5], // Dummy vocal features if not provided
                     linguistic: linguisticData || [0.5, 0.5, 0.0]
-                })
+                }),
+                signal: controller.signal
             });
+            clearTimeout(timeoutId);
             const aiResult = await aiResponse.json();
             if (aiResult.status === 'success') {
                 aiStressIndex = aiResult.burnout_risk_index;
@@ -39,17 +43,21 @@ export const submitCheckIn = async (req: Request, res: Response) => {
         // 3. Privacy-First Encryption
         const encryptedTranscript = EncryptionService.encrypt(voiceTranscript || "No transcript provided");
 
-        // 4. Save to Database
-        const checkIn = new CheckInModel({
-            caregiverId,
-            typingSpeedWpm,
-            backspaceFrequency,
-            cognitiveLoadScore,
-            voiceTranscriptEncrypted: encryptedTranscript,
-            vocalEnergyState,
-            aiStressIndex
-        });
-        // Await checkIn.save(); // Skipping actual DB save for demo unless Mongo is running
+        // 4. Save to Database (gracefully skipped if MongoDB is unavailable)
+        try {
+            const checkIn = new CheckInModel({
+                caregiverId,
+                typingSpeedWpm,
+                backspaceFrequency,
+                cognitiveLoadScore,
+                voiceTranscriptEncrypted: encryptedTranscript,
+                vocalEnergyState,
+                aiStressIndex
+            });
+            await checkIn.save();
+        } catch (dbError) {
+            console.warn("DB save skipped (MongoDB unavailable):", (dbError as Error).message);
+        }
 
         // 5. Agentic Nudge Engine
         // Assuming we fetched User to get distanceFromHospital, using mock distance for demo

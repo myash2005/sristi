@@ -79,7 +79,7 @@ def train_model():
             outputs = model(b_feat, v_feat, l_feat)
             loss = criterion(outputs, targets)
             loss.backward()
-            optimizer.save_step = optimizer.step()
+            optimizer.step()
             epoch_loss += loss.item()
             
         if (epoch + 1) % 10 == 0:

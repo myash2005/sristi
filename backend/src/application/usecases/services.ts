@@ -3,8 +3,11 @@ import crypto from 'crypto';
 // Use Case: Privacy-First Encryption (AES-256)
 export class EncryptionService {
     private static algorithm = 'aes-256-cbc';
-    // In a real app, this key would be in .env. We use a static one for the demo.
-    private static key = crypto.scryptSync('aura-secret-key', 'salt', 32); 
+    private static key = crypto.scryptSync(
+        process.env.ENCRYPTION_SECRET || 'aura-secret-key',
+        process.env.ENCRYPTION_SALT || 'aura-salt',
+        32
+    );
     
     public static encrypt(text: string): string {
         const iv = crypto.randomBytes(16);

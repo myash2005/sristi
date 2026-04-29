@@ -8,8 +8,7 @@ const crypto_1 = __importDefault(require("crypto"));
 // Use Case: Privacy-First Encryption (AES-256)
 class EncryptionService {
     static algorithm = 'aes-256-cbc';
-    // In a real app, this key would be in .env. We use a static one for the demo.
-    static key = crypto_1.default.scryptSync('aura-secret-key', 'salt', 32);
+    static key = crypto_1.default.scryptSync(process.env.ENCRYPTION_SECRET || 'aura-secret-key', process.env.ENCRYPTION_SALT || 'aura-salt', 32);
     static encrypt(text) {
         const iv = crypto_1.default.randomBytes(16);
         const cipher = crypto_1.default.createCipheriv(this.algorithm, this.key, iv);

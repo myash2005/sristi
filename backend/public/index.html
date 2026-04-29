@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aura – Caregiver System</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; overflow-x: hidden; min-height: 100vh; }
+    canvas#bg { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; }
+    #app { position: relative; z-index: 1; max-width: 600px; margin: 0 auto; padding: 28px 24px; min-height: 100vh; }
+
+    .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 28px; }
+    .logo { font-size: 38px; font-weight: 800; color: #fff; letter-spacing: -1px; text-shadow: 0 2px 16px rgba(0,0,0,0.35); }
+
+    /* Toggle */
+    .toggle-wrap { display: flex; align-items: center; gap: 10px; color: #fff; font-size: 14px; cursor: pointer; user-select: none; }
+    .toggle { width: 46px; height: 26px; border-radius: 13px; background: rgba(255,255,255,0.3); position: relative; transition: background .2s; }
+    .toggle.on { background: #fff; }
+    .toggle-knob { position: absolute; top: 4px; left: 4px; width: 18px; height: 18px; border-radius: 50%; background: #fff; transition: left .2s, background .2s; }
+    .toggle.on .toggle-knob { left: 24px; background: #00897b; }
+
+    /* Stress badge */
+    .stress-badge { background: rgba(0,0,0,0.35); border-radius: 18px; padding: 18px 22px; margin-bottom: 22px; backdrop-filter: blur(10px); display: flex; justify-content: space-between; align-items: center; }
+    .stress-label { color: rgba(255,255,255,0.65); font-size: 11px; letter-spacing: 1px; margin-bottom: 6px; }
+    .stress-value { font-size: 30px; font-weight: 700; transition: color .5s; }
+    .stress-tag { font-size: 13px; font-weight: 400; margin-left: 6px; }
+    .cog-load { text-align: right; }
+    .cog-load .stress-value { font-size: 22px; }
+
+    /* Demo panel */
+    .demo-panel { background: rgba(0,0,0,0.5); border-radius: 18px; padding: 20px; margin-bottom: 22px; backdrop-filter: blur(10px); }
+    .demo-title { color: #fff; font-weight: 700; font-size: 16px; margin-bottom: 8px; }
+    .demo-critical { color: #ff5252; font-size: 14px; margin-bottom: 4px; }
+    .demo-nudge { color: #ff9800; font-size: 14px; margin-bottom: 14px; }
+    .bars { display: flex; gap: 10px; }
+    .bar-wrap { flex: 1; text-align: center; }
+    .bar-day { color: rgba(255,255,255,0.6); font-size: 11px; margin-bottom: 4px; }
+    .bar-outer { height: 64px; background: rgba(255,255,255,0.1); border-radius: 8px; position: relative; overflow: hidden; }
+    .bar-inner { position: absolute; bottom: 0; left: 0; right: 0; border-radius: 8px; transition: height .6s ease; }
+    .bar-val { color: #fff; font-size: 11px; margin-top: 4px; }
+
+    /* Form */
+    .question { color: #fff; font-size: 22px; font-weight: 600; margin-bottom: 16px; text-shadow: 0 2px 8px rgba(0,0,0,0.3); }
+    textarea { width: 100%; padding: 16px; border-radius: 16px; border: none; outline: none; background: rgba(0,0,0,0.3); color: #fff; font-size: 15px; resize: none; backdrop-filter: blur(8px); margin-bottom: 14px; font-family: inherit; }
+    textarea::placeholder { color: rgba(255,255,255,0.5); }
+    button#submit { width: 100%; padding: 16px; border-radius: 16px; border: none; cursor: pointer; background: #fff; color: #1a1a2e; font-size: 16px; font-weight: 700; transition: opacity .15s, transform .1s; margin-bottom: 20px; }
+    button#submit:hover:not(:disabled) { opacity: 0.92; transform: scale(0.99); }
+    button#submit:disabled { opacity: 0.55; cursor: not-allowed; }
+
+    /* Error */
+    .error-box { background: rgba(255,82,82,0.2); border: 1px solid rgba(255,82,82,0.5); border-radius: 12px; padding: 12px 16px; color: #ff5252; font-size: 14px; margin-bottom: 16px; }
+
+    /* Nudge */
+    .nudge-card { background: #fff; border-radius: 18px; padding: 20px; display: flex; align-items: center; gap: 16px; box-shadow: 0 8px 32px rgba(0,0,0,0.22); animation: fadeUp .4s ease; }
+    .nudge-icon { font-size: 34px; flex-shrink: 0; }
+    .nudge-label { font-size: 11px; color: #888; font-weight: 700; letter-spacing: 1px; margin-bottom: 5px; }
+    .nudge-text { font-size: 15px; color: #1a1a2e; font-weight: 500; line-height: 1.5; }
+
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+  </style>
+</head>
+<body>
+<canvas id="bg"></canvas>
+<div id="app">
+  <div class="header">
+    <span class="logo">Aura</span>
+    <div class="toggle-wrap" id="demoToggleWrap">
+      <span>Demo Mode</span>
+      <div class="toggle" id="demoToggle"><div class="toggle-knob"></div></div>
+    </div>
+  </div>
+
+  <div class="stress-badge">
+    <div>
+      <div class="stress-label">BURNOUT RISK INDEX</div>
+      <div class="stress-value" id="stressValue">0.50 <span class="stress-tag" id="stressTag">(Moderate)</span></div>
+    </div>
+    <div class="cog-load" id="cogLoadWrap" style="display:none">
+      <div class="stress-label">COGNITIVE LOAD</div>
+      <div class="stress-value" id="cogLoadValue">—</div>
+    </div>
+  </div>
+
+  <div class="demo-panel" id="demoPanel" style="display:none">
+    <div class="demo-title">Sarah's Journey — Friday</div>
+    <div class="demo-critical">Stress Index: 0.85 (Critical)</div>
+    <div class="demo-nudge">Nudge Triggered: Respite Care</div>
+    <div class="bars">
+      <div class="bar-wrap">
+        <div class="bar-day">Mon</div>
+        <div class="bar-outer"><div class="bar-inner" style="height:40%;background:#69f0ae"></div></div>
+        <div class="bar-val">0.40</div>
+      </div>
+      <div class="bar-wrap">
+        <div class="bar-day">Wed</div>
+        <div class="bar-outer"><div class="bar-inner" style="height:70%;background:#ff9800"></div></div>
+        <div class="bar-val">0.70</div>
+      </div>
+      <div class="bar-wrap">
+        <div class="bar-day">Fri</div>
+        <div class="bar-outer"><div class="bar-inner" style="height:85%;background:#ff5252"></div></div>
+        <div class="bar-val">0.85</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="question">How are you feeling today?</div>
+  <textarea id="journal" rows="5" placeholder="Type your thoughts here..."></textarea>
+  <button id="submit">Submit Check-in</button>
+  <div class="error-box" id="errorBox" style="display:none"></div>
+  <div id="nudgeCard" style="display:none" class="nudge-card">
+    <div class="nudge-icon">🧘</div>
+    <div>
+      <div class="nudge-label">AURA NUDGE</div>
+      <div class="nudge-text" id="nudgeText"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── Canvas fluid gradient ──────────────────────────────────────────────────
+const canvas = document.getElementById('bg');
+const ctx = canvas.getContext('2d');
+let stressIndex = 0.5;
+let t = 0;
+
+function resize() { canvas.width = window.innerWidth; canvas.height = window.innerHeight; }
+resize();
+window.addEventListener('resize', resize);
+
+function lerp(a, b, x) { return a + (b - a) * x; }
+function lerpRGB(c1, c2, x) { return c1.map((v, i) => Math.round(lerp(v, c2[i], x))); }
+
+function drawFrame() {
+  t += 0.004 + stressIndex * 0.012;
+  const s = stressIndex;
+  const W = canvas.width, H = canvas.height;
+
+  const bg1 = lerpRGB([77,182,172],[255,112,67], s);
+  const bg2 = lerpRGB([100,181,246],[229,57,53], s);
+  const g = ctx.createLinearGradient(0,0,W,H);
+  g.addColorStop(0, `rgb(${bg1})`);
+  g.addColorStop(1, `rgb(${bg2})`);
+  ctx.fillStyle = g;
+  ctx.fillRect(0,0,W,H);
+
+  const wH = 30 + s * 80;
+  ctx.beginPath();
+  ctx.moveTo(0, H * 0.55);
+  for (let x = 0; x <= W; x += 2) {
+    const y = H * 0.55
+      + Math.sin((x/W)*Math.PI*2 + t) * wH
+      + Math.cos((x/W)*Math.PI*3 - t*1.3) * wH * 0.5;
+    ctx.lineTo(x, y);
+  }
+  ctx.lineTo(W,H); ctx.lineTo(0,H); ctx.closePath();
+
+  const wc1 = lerpRGB([0,150,136],[230,74,25], s);
+  const wc2 = lerpRGB([30,136,229],[183,28,28], s);
+  const wg = ctx.createLinearGradient(0,0,W,H);
+  wg.addColorStop(0, `rgba(${wc1},0.75)`);
+  wg.addColorStop(1, `rgba(${wc2},0.75)`);
+  ctx.fillStyle = wg;
+  ctx.fill();
+
+  requestAnimationFrame(drawFrame);
+}
+requestAnimationFrame(drawFrame);
+
+// ── Passive Detection Engine ───────────────────────────────────────────────
+let keystrokes = 0, backspaces = 0, startTime = null;
+
+document.getElementById('journal').addEventListener('keydown', e => {
+  if (!startTime) startTime = Date.now();
+  if (e.key === 'Backspace') backspaces++; else keystrokes++;
+});
+
+function calcCogLoad() {
+  if (!startTime || keystrokes === 0) return 0;
+  const mins = (Date.now() - startTime) / 60000;
+  if (mins <= 0) return 0;
+  const wpm = (keystrokes / 5) / mins;
+  const bsRatio = backspaces / Math.max(1, keystrokes);
+  return Math.min(1, (bsRatio * 0.6) + (1 - Math.min(1, wpm / 60)) * 0.4);
+}
+
+function resetEngine() { keystrokes = 0; backspaces = 0; startTime = null; }
+
+// ── UI helpers ─────────────────────────────────────────────────────────────
+function stressColor(s) {
+  if (s > 0.8) return '#ff5252';
+  if (s > 0.6) return '#ff9800';
+  if (s > 0.4) return '#ffeb3b';
+  return '#69f0ae';
+}
+function stressTag(s) {
+  if (s > 0.8) return 'Critical';
+  if (s > 0.6) return 'High';
+  if (s > 0.4) return 'Moderate';
+  return 'Low';
+}
+function nudgeText(code) {
+  if (!code) return null;
+  if (code === 'triggerRespiteCareNudge') return 'Time for a break! Consider reaching out to your respite care network.';
+  if (code === 'triggerTakeABreathNudge') return 'Take a deep breath. Try the 4-7-8 breathing exercise.';
+  if (code === 'triggerHydrationNudge') return 'Stay hydrated — drink a glass of water now.';
+  return code;
+}
+
+function updateStressUI(s) {
+  stressIndex = s;
+  const el = document.getElementById('stressValue');
+  el.style.color = stressColor(s);
+  el.innerHTML = s.toFixed(2) + ' <span class="stress-tag">(' + stressTag(s) + ')</span>';
+}
+
+function showNudge(text) {
+  const card = document.getElementById('nudgeCard');
+  document.getElementById('nudgeText').textContent = text;
+  card.style.display = 'flex';
+  card.style.animation = 'none';
+  void card.offsetWidth;
+  card.style.animation = 'fadeUp .4s ease';
+}
+
+function hideNudge() { document.getElementById('nudgeCard').style.display = 'none'; }
+function showError(msg) { const b = document.getElementById('errorBox'); b.textContent = msg; b.style.display = 'block'; }
+function hideError() { document.getElementById('errorBox').style.display = 'none'; }
+
+// ── Demo Mode ──────────────────────────────────────────────────────────────
+let isDemoMode = false;
+document.getElementById('demoToggleWrap').addEventListener('click', () => {
+  isDemoMode = !isDemoMode;
+  const tog = document.getElementById('demoToggle');
+  tog.classList.toggle('on', isDemoMode);
+  document.getElementById('demoPanel').style.display = isDemoMode ? 'block' : 'none';
+  if (isDemoMode) {
+    updateStressUI(0.85);
+    showNudge('Time for a break! Consider reaching out to your respite care network.');
+    document.getElementById('cogLoadWrap').style.display = 'none';
+  } else {
+    updateStressUI(0.5);
+    hideNudge();
+    hideError();
+    document.getElementById('cogLoadWrap').style.display = 'none';
+  }
+});
+
+// ── Submit Check-in ────────────────────────────────────────────────────────
+document.getElementById('submit').addEventListener('click', async () => {
+  const text = document.getElementById('journal').value.trim();
+  if (!text) return;
+
+  const loadScore = calcCogLoad();
+  resetEngine();
+  hideError();
+  hideNudge();
+
+  const btn = document.getElementById('submit');
+  btn.disabled = true;
+  btn.textContent = 'Analysing...';
+
+  try {
+    const wpm = Math.max(1, Math.round((text.split(' ').length) / Math.max(0.05, loadScore)));
+    const res = await fetch('/api/checkin', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        caregiverId: 'user_web_01',
+        typingSpeedWpm: wpm,
+        backspaceFrequency: Math.round(loadScore * 10),
+        voiceTranscript: text,
+        vocalEnergyState: loadScore > 0.7 ? 'Burnout' : loadScore > 0.4 ? 'Fatigue' : 'Vitality',
+        baselineData: [0.42, 0.7, 0.25, 0.48, 0.3],
+        linguisticData: [loadScore, 1 - loadScore, loadScore > 0.7 ? 1 : 0],
+      }),
+    });
+
+    const json = await res.json();
+    if (!res.ok) throw new Error(json.error || 'Server error');
+
+    const { cognitiveLoadScore, aiStressIndex, recommendedNudge } = json.data;
+
+    updateStressUI(aiStressIndex);
+
+    const cogWrap = document.getElementById('cogLoadWrap');
+    document.getElementById('cogLoadValue').textContent = Math.round(cognitiveLoadScore * 100) + '%';
+    cogWrap.style.display = 'block';
+
+    if (recommendedNudge) showNudge(nudgeText(recommendedNudge));
+
+  } catch (err) {
+    // Graceful fallback using local cognitive load
+    const si = Math.min(1, 0.3 + loadScore * 0.7);
+    updateStressUI(si);
+    const cogWrap = document.getElementById('cogLoadWrap');
+    document.getElementById('cogLoadValue').textContent = Math.round(loadScore * 100) + '%';
+    cogWrap.style.display = 'block';
+    if (si > 0.8) showNudge('Time for a break! Consider reaching out to your respite care network.');
+    else if (si > 0.5) showNudge('Take a deep breath. Try the 4-7-8 breathing exercise.');
+    showError('Backend unreachable — showing local estimate.');
+  }
+
+  document.getElementById('journal').value = '';
+  btn.disabled = false;
+  btn.textContent = 'Submit Check-in';
+});
+</script>
+</body>
+</html>
